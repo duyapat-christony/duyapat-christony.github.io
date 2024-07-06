@@ -966,6 +966,7 @@ a:hover .hover-heading {
 .review .review-img {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .review .review-img img {
