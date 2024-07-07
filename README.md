@@ -11,7 +11,7 @@
   
   Welcome to my personal website, where I share my journey and resources. Explore to learn more about my interests and the things that I do.
 
-* [About](https://duyapat-christony.github.io/#about)
+* [About Me](https://duyapat-christony.github.io/#about)
 * [Education and Certification](https://duyapat-christony.github.io/#education)
 * [Publication](https://duyapat-christony.github.io/#publication)
 * [Gallery](https://duyapat-christony.github.io/#gallery)
