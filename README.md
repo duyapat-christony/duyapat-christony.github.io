@@ -1,5 +1,7 @@
   <p align="center">
-    <img src="img/profile2.svg" alt="Christony Duyapat" style="height: 200px; max-width: 100%;">
+    <a href="https://duyapat-christony.github.io">
+      <img src="img/profile2.svg" alt="Christony Duyapat" style="height: 200px; max-width: 100%;">
+    </a>
     <br>
   </p>
 
