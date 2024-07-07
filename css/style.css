@@ -970,8 +970,9 @@ a:hover .hover-heading {
 }
 
 .review .review-img img {
-    width: 100%; 
-    height: 8rem; 
+    width: 100%;
+    height: 10rem;
+    min-height: 8rem; 
     object-fit: cover;
 }
 
