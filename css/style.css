@@ -776,7 +776,7 @@ a:hover .hover-heading {
 }
 
 .portfolio .portfolio-wrap {
-    box-shadow: 5px 5px 5px #91919154;
+    box-shadow: 3px 3px 3px #91919154;
     border: 1px solid #F6D155;
 }
 
@@ -951,8 +951,8 @@ a:hover .hover-heading {
 .review h3 {
     font-size: 20px;
     font-weight: 700;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-top: 15px;
     color:#666666;
     text-align: center;
 }
@@ -967,6 +967,8 @@ a:hover .hover-heading {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 3px 3px 3px #91919154;
+    border: 1px solid #F6D155;
 }
 
 .review .review-img img {
