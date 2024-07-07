@@ -776,7 +776,7 @@ a:hover .hover-heading {
 }
 
 .portfolio .portfolio-wrap {
-    box-shadow: 3px 3px 3px #91919154;
+    box-shadow: 2px 2px 2px #91919154;
     border: 1px solid #F6D155;
 }
 
@@ -967,8 +967,6 @@ a:hover .hover-heading {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 3px 3px 3px #91919154;
-    border: 1px solid #F6D155;
 }
 
 .review .review-img img {
@@ -976,6 +974,8 @@ a:hover .hover-heading {
     height: 10rem;
     min-height: 8rem; 
     object-fit: cover;
+    box-shadow: 3px 3px 3px #91919154;
+    border: 1px solid #F6D155;
 }
 
 
