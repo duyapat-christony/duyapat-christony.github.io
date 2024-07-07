@@ -961,6 +961,7 @@ a:hover .hover-heading {
     font-size: 14px;
     font-style: italic;
     text-align: justify;
+    margin-bottom: 10px;
 }
 
 .review .review-img {
