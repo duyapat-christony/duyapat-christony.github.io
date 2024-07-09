@@ -17,10 +17,3 @@
 * [Gallery](https://duyapat-christony.github.io/#gallery)
 * [Instructional Materials](https://duyapat-christony.github.io/#instruction)
 * [Contact](https://duyapat-christony.github.io/#contact)
-
-</br>
-
-| Socials |
-|-------------------|
-| [Personal Website↗️](https://duyapat-christony.github.io) [Linkedin↗️](https://www.linkedin.com/in/christonyduyapat) [Teaching Internship↗️](https://sites.google.com/view/christony-duyapat-portfolio) [Github↗️](https://github.com/duyapat-christony) [Facebook↗️](http://facebook.com/christony.duyapat.3) [Blogger↗️](https://ginoongchris.blogspot.com) [YouTube↗️](https://www.youtube.com/@ginoongchris?sub_confirmation=1) |
-
