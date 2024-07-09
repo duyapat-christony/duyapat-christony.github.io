@@ -1,4 +1,3 @@
-![Christony Duyapat](https://github.com/duyapat-christony/duyapat-christony.github.io/assets/148646726/49428526-c768-4385-9fed-c021b6f82f42)  
 <p align="center">
   <a href="https://duyapat-christony.github.io">
     <img src="img/profile2.svg" alt="Christony Duyapat" style="height: 200px; max-width: 100%;">
@@ -23,5 +22,5 @@
 
 | Socials |
 |-------------------|
-| [👤](https://duyapat-christony.github.io) [❤️](https://www.linkedin.com/in/christonyduyapat) [❤️](https://sites.google.com/view/christony-duyapat-portfolio) [❤️](https://github.com/duyapat-christony) [❤️](https://instagram.com/ginoong_chris25) [❤️](http://facebook.com/christony.duyapat.3) [❤️](http://m.me/christony.duyapat.3) [❤️](https://ginoongchris.blogspot.com) [❤️](https://www.youtube.com/@ginoongchris?sub_confirmation=1) |
+| [Personal Website↗️](https://duyapat-christony.github.io) [Linkedin↗️](https://www.linkedin.com/in/christonyduyapat) [Teaching Internship↗️](https://sites.google.com/view/christony-duyapat-portfolio) [Github↗️](https://github.com/duyapat-christony) [Facebook↗️](http://facebook.com/christony.duyapat.3) [Blogger↗️](https://ginoongchris.blogspot.com) [YouTube↗️](https://www.youtube.com/@ginoongchris?sub_confirmation=1) |
 
