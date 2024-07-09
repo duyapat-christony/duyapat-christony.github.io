@@ -19,4 +19,9 @@
 * [Instructional Materials](https://duyapat-christony.github.io/#instruction)
 * [Contact](https://duyapat-christony.github.io/#contact)
 
+</br>
+
+| Socials |
+|-------------------|
+| [👤](https://duyapat-christony.github.io) [❤️](https://www.linkedin.com/in/christonyduyapat) [❤️](https://sites.google.com/view/christony-duyapat-portfolio) [❤️](https://github.com/duyapat-christony) [❤️](https://instagram.com/ginoong_chris25) [❤️](http://facebook.com/christony.duyapat.3) [❤️](http://m.me/christony.duyapat.3) [❤️](https://ginoongchris.blogspot.com) [❤️](https://www.youtube.com/@ginoongchris?sub_confirmation=1) |
 
