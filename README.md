@@ -1,9 +1,10 @@
-  <p align="center">
-    <a href="https://duyapat-christony.github.io">
-      <img src="img/profile2.svg" alt="Christony Duyapat" style="height: 200px; max-width: 100%;">
-    </a>
-    <br>
-  </p>
+![Christony Duyapat](https://github.com/duyapat-christony/duyapat-christony.github.io/assets/148646726/49428526-c768-4385-9fed-c021b6f82f42)  
+<p align="center">
+  <a href="https://duyapat-christony.github.io">
+    <img src="img/profile2.svg" alt="Christony Duyapat" style="height: 200px; max-width: 100%;">
+  </a>
+  <br>
+</p>
 
 
   Hello! I'm **[Christony Duyapat](https://duyapat-christony.github.io)**, a dedicated mathematics teacher and an aspiring data analyst hailing from the beautiful town of Tinoc, Ifugao. 
@@ -17,3 +18,5 @@
 * [Gallery](https://duyapat-christony.github.io/#gallery)
 * [Instructional Materials](https://duyapat-christony.github.io/#instruction)
 * [Contact](https://duyapat-christony.github.io/#contact)
+
+
