@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Christony Duyapat">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Quote Generator</title>
+    <style>
+        body {
+            font-family: 'Merriweather', serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-image: url(https://wallpaperaccess.com/full/2137216.jpg);
+            background-repeat: repeat;
+            background-size: cover;
+            background-blend-mode: black;
+            padding: 0 20px;
+            overflow: auto;
+        }
+
+        .container {
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0.5px 2px 2px #ffd341b8;
+            margin: 15px;
+            width: 100%;
+            max-width: 900px;
+        }
+
+        .quote {
+            font-size: 3em;
+            line-height: 1.2;
+            margin: 20px 10px;
+            color: #222222;
+        }
+
+        .author {
+            font-size: 2em;
+            font-weight: bold;
+            color: #ff6f61;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-family: 'Merriweather', serif;
+            font-size: 2em;
+            border: none;
+            border-radius: 5px;
+            background-color: #f6d155;
+            color: #222222;
+            cursor: pointer;
+            margin: 20px 10px;
+        }
+
+        button:hover {
+            background-color: #ff6f61;
+            color: white;
+        }
+
+        /* Media query for smaller screens */
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+                width: 100%;
+                margin: 10px;
+            }
+            .quote {
+                font-size: 1em;
+                margin: 10px;
+            }
+            .author {
+                font-size: 0.8em;
+                margin: 0;
+            }
+            button {
+                padding: 8px 16px;
+                font-size: 0.7em;
+                margin: 0;
+                margin-bottom:10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="quote" id="quote"></div>
+        <div class="author" id="author"></div>
+        <br>
+        <button onclick="generateQuote()">New Quote</button>
+    </div>
+
+    <script>
+        const quotes = [
+            {quote: "Mathematics is the language in which God has written the universe.", author: "— Galileo Galilei"},
+            {quote: "Pure mathematics is, in its way, the poetry of logical ideas.", author: "— Albert Einstein"},
+            {quote: "The only way to learn mathematics is to do mathematics.", author: "— Paul Halmos"},
+            {quote: "Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding.", author: "— William Paul Thurston"},
+            {quote: "Without mathematics, there’s nothing you can do. Everything around you is mathematics. Everything around you is numbers.", author: "— Shakuntala Devi"},
+            {quote: "Mathematics knows no races or geographic boundaries; for mathematics, the cultural world is one country.", author: "— David Hilbert"},
+            {quote: "Mathematics is the most beautiful and most powerful creation of the human spirit.", author: "— Stefan Banach"},
+            {quote: "Mathematics is the music of reason.", author: "— James Joseph Sylvester"},
+            {quote: "Go down deep enough into anything and you will find mathematics.", author: "— Dean Schlicter"},
+            {quote: "In mathematics, the art of proposing a question must be held of higher value than solving it.", author: "— Georg Cantor"},
+            {quote: "Mathematics is the door and key to the sciences.", author: "— Roger Bacon"},
+            {quote: "Mathematics is the queen of the sciences.", author: "— Carl Friedrich Gauss"},
+            {quote: "The study of mathematics, like the Nile, begins in minuteness but ends in magnificence.", author: "— Charles Caleb Colton"},
+            {quote: "Mathematics, rightly viewed, possesses not only truth, but supreme beauty.", author: "— Bertrand Russell"},
+            {quote: "To understand the universe, you must understand the language in which it's written. And that language is mathematics.", author: "— Galileo Galilei"},
+            {quote: "Life is a math equation. In order to gain the most, you have to know how to convert negatives into positives.", author: "— Anonymous"},
+            {quote: "Mathematics is the art of giving the same name to different things.", author: "— Henri Poincaré"},
+            {quote: "The essence of mathematics is not to make simple things complicated, but to make complicated things simple.", author: "— S. Gudder"},
+            {quote: "Mathematics compares the most diverse phenomena and discovers the secret analogies that unite them.", author: "— Joseph Fourier"},
+            {quote: "A mathematician who is not also something of a poet will never be a complete mathematician.", author: "— Karl Weierstrass"},
+            {quote: "Mathematics is a place where you can do things which you can't do in the real world.", author: "— Marcus du Sautoy"},
+            {quote: "Mathematics consists in proving the most obvious thing in the least obvious way.", author: "— George Polya"},
+            {quote: "The hardest arithmetic to master is that which enables us to count our blessings.", author: "— Eric Hoffer"},
+            {quote: "Mathematics is the foundation of all exact knowledge of natural phenomena.", author: "— Friedrich Wilhelm Bessel"},
+            {quote: "Numbers have life; they’re not just symbols on paper.", author: "— Shakuntala Devi"},
+            {quote: "In mathematics, you don’t understand things. You just get used to them.", author: "— John von Neumann"},
+            {quote: "Do not worry too much about your difficulties in mathematics, I can assure you that mine are still greater.", author: "— Albert Einstein"},
+            {quote: "Mathematics is, in its way, the poetry of logical ideas.", author: "— Albert Einstein"},
+            {quote: "The only way to learn mathematics is to do mathematics.", author: "— Paul Halmos"},
+            {quote: "Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding.", author: "— William Paul Thurston"},
+            {quote: "Without mathematics, there’s nothing you can do. Everything around you is mathematics. Everything around you is numbers.", author: "— Shakuntala Devi"},
+            {quote: "Mathematics knows no races or geographic boundaries; for mathematics, the cultural world is one country.", author: "— David Hilbert"},
+            {quote: "Mathematics is the most beautiful and most powerful creation of the human spirit.", author: "— Stefan Banach"},
+            {quote: "Mathematics is the music of reason.", author: "— James Joseph Sylvester"},
+            {quote: "Go down deep enough into anything and you will find mathematics.", author: "— Dean Schlicter"},
+            {quote: "In mathematics, the art of proposing a question must be held of higher value than solving it.", author: "— Georg Cantor"},
+            {quote: "Mathematics is the door and key to the sciences.", author: "— Roger Bacon"},
+            {quote: "Mathematics is the queen of the sciences.", author: "— Carl Friedrich Gauss"},
+            {quote: "The study of mathematics, like the Nile, begins in minuteness but ends in magnificence.", author: "— Charles Caleb Colton"},
+            {quote: "Mathematics, rightly viewed, possesses not only truth, but supreme beauty.", author: "— Bertrand Russell"},
+            {quote: "To understand the universe, you must understand the language in which it's written. And that language is mathematics.", author: "— Galileo Galilei"},
+            {quote: "Life is a math equation. In order to gain the most, you have to know how to convert negatives into positives.", author: "— Anonymous"},
+            {quote: "Mathematics is the art of giving the same name to different things.", author: "— Henri Poincaré"},
+            {quote: "The essence of mathematics is not to make simple things complicated, but to make complicated things simple.", author: "— S. Gudder"},
+            {quote: "Mathematics compares the most diverse phenomena and discovers the secret analogies that unite them.", author: "— Joseph Fourier"},
+            {quote: "A mathematician who is not also something of a poet will never be a complete mathematician.", author: "— Karl Weierstrass"},
+            {quote: "Mathematics is a place where you can do things which you can't do in the real world.", author: "— Marcus du Sautoy"},
+            {quote: "Mathematics consists in proving the most obvious thing in the least obvious way.", author: "— George Polya"},
+            {quote: "The hardest arithmetic to master is that which enables us to count our blessings.", author: "— Eric Hoffer"},
+            {quote: "Mathematics is the foundation of all exact knowledge of natural phenomena.", author: "— Friedrich Wilhelm Bessel"},
+            {quote: "Numbers have life; they’re not just symbols on paper.", author: "— Shakuntala Devi"},
+            {quote: "In mathematics, you don’t understand things. You just get used to them.", author: "— John von Neumann"},
+            {quote: "Do not worry too much about your difficulties in mathematics, I can assure you that mine are still greater.", author: "— Albert Einstein"},
+            {quote: "Mathematics is, in its way, the poetry of logical ideas.", author: "— Albert Einstein"},
+            {quote: "The only way to learn mathematics is to do mathematics.", author: "— Paul Halmos"},
+            {quote: "Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding.", author: "— William Paul Thurston"},
+            {quote: "Without mathematics, there’s nothing you can do. Everything around you is mathematics. Everything around you is numbers.", author: "— Shakuntala Devi"},
+            {quote: "Mathematics knows no races or geographic boundaries; for mathematics, the cultural world is one country.", author: "— David Hilbert"},
+            {quote: "Mathematics is the most beautiful and most powerful creation of the human spirit.", author: "— Stefan Banach"},
+            {quote: "Mathematics is the music of reason.", author: "— James Joseph Sylvester"},
+            {quote: "Go down deep enough into anything and you will find mathematics.", author: "— Dean Schlicter"},
+            {quote: "In mathematics, the art of proposing a question must be held of higher value than solving it.", author: "— Georg Cantor"},
+            {quote: "Mathematics is the door and key to the sciences.", author: "— Roger Bacon"},
+            {quote: "Mathematics is the queen of the sciences.", author: "— Carl Friedrich Gauss"},
+            {quote: "The study of mathematics, like the Nile, begins in minuteness but ends in magnificence.", author: "— Charles Caleb Colton"},
+            {quote: "Mathematics, rightly viewed, possesses not only truth, but supreme beauty.", author: "— Bertrand Russell"},
+            {quote: "To understand the universe, you must understand the language in which it's written. And that language is mathematics.", author: "— Galileo Galilei"},
+            {quote: "Life is a math equation. In order to gain the most, you have to know how to convert negatives into positives.", author: "— Anonymous"},
+            {quote: "Mathematics is the art of giving the same name to different things.", author: "— Henri Poincaré"},
+            {quote: "The essence of mathematics is not to make simple things complicated, but to make complicated things simple.", author: "— S. Gudder"},
+            {quote: "Mathematics compares the most diverse phenomena and discovers the secret analogies that unite them.", author: "— Joseph Fourier"},
+            {quote: "A mathematician who is not also something of a poet will never be a complete mathematician.", author: "— Karl Weierstrass"},
+            {quote: "Mathematics is a place where you can do things which you can't do in the real world.", author: "— Marcus du Sautoy"},
+            {quote: "Mathematics consists in proving the most obvious thing in the least obvious way.", author: "— George Polya"},
+            {quote: "The hardest arithmetic to master is that which enables us to count our blessings.", author: "— Eric Hoffer"},
+            {quote: "Mathematics is the foundation of all exact knowledge of natural phenomena.", author: "— Friedrich Wilhelm Bessel"},
+            {quote: "Numbers have life; they’re not just symbols on paper.", author: "— Shakuntala Devi"},
+            {quote: "In mathematics, you don’t understand things. You just get used to them.", author: "— John von Neumann"},
+            {quote: "Do not worry too much about your difficulties in mathematics, I can assure you that mine are still greater.", author: "— Albert Einstein"},
+            {quote: "Mathematics is, in its way, the poetry of logical ideas.", author: "— Albert Einstein"},
+            {quote: "The only way to learn mathematics is to do mathematics.", author: "— Paul Halmos"},
+            {quote: "Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding.", author: "— William Paul Thurston"},
+            {quote: "Without mathematics, there’s nothing you can do. Everything around you is mathematics. Everything around you is numbers.", author: "— Shakuntala Devi"},
+            {quote: "Mathematics knows no races or geographic boundaries; for mathematics, the cultural world is one country.", author: "— David Hilbert"},
+            {quote: "Mathematics is the most beautiful and most powerful creation of the human spirit.", author: "— Stefan Banach"},
+            {quote: "Mathematics is the music of reason.", author: "— James Joseph Sylvester"},
+            {quote: "Go down deep enough into anything and you will find mathematics.", author: "— Dean Schlicter"},
+            {quote: "In mathematics, the art of proposing a question must be held of higher value than solving it.", author: "— Georg Cantor"},
+            {quote: "Mathematics is the door and key to the sciences.", author: "— Roger Bacon"},
+            {quote: "Mathematics is the queen of the sciences.", author: "— Carl Friedrich Gauss"},
+            {quote: "The study of mathematics, like the Nile, begins in minuteness but ends in magnificence.", author: "— Charles Caleb Colton"},
+            {quote: "Mathematics, rightly viewed, possesses not only truth, but supreme beauty.", author: "— Bertrand Russell"},
+            {quote: "To understand the universe, you must understand the language in which it's written. And that language is mathematics.", author: "— Galileo Galilei"},
+            {quote: "Life is a math equation. In order to gain the most, you have to know how to convert negatives into positives.", author: "— Anonymous"},
+            {quote: "Mathematics is the art of giving the same name to different things.", author: "— Henri Poincaré"},
+            {quote: "The essence of mathematics is not to make simple things complicated, but to make complicated things simple.", author: "— S. Gudder"},
+            {quote: "Mathematics compares the most diverse phenomena and discovers the secret analogies that unite them.", author: "— Joseph Fourier"},
+            {quote: "A mathematician who is not also something of a poet will never be a complete mathematician.", author: "— Karl Weierstrass"},
+            {quote: "Mathematics is a place where you can do things which you can't do in the real world.", author: "— Marcus du Sautoy"},
+            {quote: "Mathematics consists in proving the most obvious thing in the least obvious way.", author: "— George Polya"},
+            {quote: "The hardest arithmetic to master is that which enables us to count our blessings.", author: "— Eric Hoffer"},
+            {quote: "Mathematics is the foundation of all exact knowledge of natural phenomena.", author: "— Friedrich Wilhelm Bessel"},
+            {quote: "Numbers have life; they’re not just symbols on paper.", author: "— Shakuntala Devi"},
+            {quote: "In mathematics, you don’t understand things. You just get used to them.", author: "— John von Neumann"},
+            {quote: "Do not worry too much about your difficulties in mathematics, I can assure you that mine are still greater.", author: "— Albert Einstein"},
+            {quote: "Mathematics is, in its way, the poetry of logical ideas.", author: "— Albert Einstein"},
+            {quote: "The only way to learn mathematics is to do mathematics.", author: "— Paul Halmos"},
+            {quote: "Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding.", author: "— William Paul Thurston"},
+            {quote: "Without mathematics, there’s nothing you can do. Everything around you is mathematics. Everything around you is numbers.", author: "— Shakuntala Devi"},
+            {quote: "Mathematics knows no races or geographic boundaries; for mathematics, the cultural world is one country.", author: "— David Hilbert"},
+            {quote: "Mathematics is the most beautiful and most powerful creation of the human spirit.", author: "— Stefan Banach"},
+            {quote: "Mathematics is the music of reason.", author: "— James Joseph Sylvester"},
+            {quote: "Go down deep enough into anything and you will find mathematics.", author: "— Dean Schlicter"},
+            {quote: "In mathematics, the art of proposing a question must be held of higher value than solving it.", author: "— Georg Cantor"},
+
+        ];
+
+        function generateQuote() {
+            const randomIndex = Math.floor(Math.random() * quotes.length);
+            const quote = quotes[randomIndex].quote;
+            const author = quotes[randomIndex].author;
+
+            document.getElementById('quote').innerText = `"${quote}"`;
+            document.getElementById('author').innerText = author;
+        }
+
+        // Generate the first random quote on page load
+        window.onload = generateQuote;
+    </script>
+</body>
+</html>

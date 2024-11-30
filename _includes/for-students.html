@@ -1,0 +1,52 @@
+{% include lang.html %}
+
+<blockquote class="prompt-info">
+  <strong>Are you my student?</strong> Find everything you need right here! Whether you’re catching up on announcements,
+  diving into your next lesson, or booking a consultation appointment, all the resources are at your fingertips.
+  Navigate through the links to discover what’s new and what’s next!
+</blockquote>
+
+<div class="container">
+  <div class="row">
+    {% assign student_files = site['for-students'] %}
+    {% for file in student_files %}
+      <div class="col-md-4 mb-4 d-flex">
+        <div class="card h-100 d-flex" style="width: 100%;">
+          <figure class="mt-2 mb-0">
+            <a
+              class="rounded"
+              href="{{ file.url }}"
+              style="display: block; width: 100%; padding-top: 52.5%; background: url('{{ file.thumbnail }}') no-repeat center center; background-size: contain; text-decoration: none; border: none;"
+            ></a>
+          </figure>
+          <div class="card-body d-flex flex-column" style="padding-top: 0;">
+            <a href="{{ file.url }}" style="text-decoration: none;">
+              <figcaption style="font-weight: bold; text-decoration: none;">{{ file.title }}</figcaption>
+            </a>
+            <p style="padding-top: 5px; line-height: 1.5;" class="card-text flex-grow-1">
+              {{ file.subtitle }}
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="m-0 post-meta text-muted text-body-secondary">
+              <span
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="{{ file.last_modified_at | date: '%a, %b %d, %Y %I:%M%p' }}"
+              >
+                {{ site.data.locales[lang].post.updated }}
+                {% if file.last_modified_at %}
+                  {% include datetime.html date=file.last_modified_at tooltip=true lang=lang %}
+                {% else %}
+                  {% include datetime.html date=file.date tooltip=true lang=lang %}
+                {% endif %}
+              </span>
+            </small>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% include menu-for-students.html %}

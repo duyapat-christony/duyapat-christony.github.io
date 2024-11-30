@@ -1,0 +1,90 @@
+/*
+  Appending custom SCSS variables will override the default ones in `_sass/addon/variables.scsss`
+*/
+
+.loader {
+  padding: 0;
+  margin: 0;
+  background: url(https://icon-library.com/images/loading-icon-animated-gif/loading-icon-animated-gif-7.jpg)
+    no-repeat;
+  background-position: center center;
+  background-size: 100px 100px;
+  overflow: hidden;
+}
+
+/*Floating Button Start*/
+.students-floating-button {
+  z-index: 1050;
+  position: fixed;
+  cursor: pointer;
+  right: 1rem;
+  bottom: 20px;
+  background: var(--button-bg);
+  color: var(--btn-backtotop-color);
+  padding: 0;
+  width: $back2top-size;
+  height: $back2top-size;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px var(--main-border-color);
+  border: 1px solid var(--btn-backtotop-border-color);
+  transition: opacity 0.5s ease-in-out, transform 0.2s ease-out;
+
+  &:hover {
+    transform: translate3d(0, -5px, 0);
+    -webkit-transform: translate3d(0, -5px, 0);
+  }
+
+  @media (min-width: 850px) {
+    right: 11%;
+    bottom: calc($footer-height - $back2top-size / 2);
+  }
+  @media (min-width: 1400px) {
+    right: calc((100vw - 260px - 1140px) / 2 + 7rem);
+  }
+  @media (min-width: 1600px) {
+    right: calc((100vw - 260px - 1140px) / 2 + 5rem);
+  }
+}
+
+@media (max-width: 600px) {
+  .iframe-chatbot {
+    padding-bottom: 200% !important; /* 9:16 aspect ratio for phones */
+  }
+}
+
+/*Show Solution Start*/
+summary.solution {
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: var(--prompt-info-bg);
+  color: var(--prompt-text-color);
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: filter 0.3s ease, background-color 0.3s ease;
+  -webkit-user-select: none; /* Chrome, Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer */
+  user-select: none; /* Standard */
+
+  &:hover {
+    filter: brightness(0.95);
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:active {
+    background-color: var(--prompt-tip-bg);
+  }
+}
+
+blockquote.explanation {
+  padding: 5px 15px;
+  color: var(--prompt-text-color);
+  margin-top: 0.5rem;
+  background-color: var(--prompt-info-bg);
+  width: fit-content;
+  max-width: 100%;
+}

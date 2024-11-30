@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Division Quiz</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        margin: 0;
+      }
+      .quiz-container {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        width: 300px;
+      }
+      .timer {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+        color: #ff0000;
+      }
+      .question {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      .choices {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+      }
+      .choices button {
+        margin: 5px 0;
+        padding: 10px;
+        font-size: 1rem;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: white;
+        transition: background-color 0.3s ease;
+      }
+      .choices button:hover {
+        background-color: #0056b3;
+      }
+      .summary {
+        font-size: 1.2rem;
+        margin-top: 20px;
+      }
+      .start-btn {
+        padding: 10px 20px;
+        font-size: 1rem;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      .start-btn:hover {
+        background-color: #218838;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="quiz-container">
+      <div class="timer" id="timer">Time left: 4:00</div>
+      <div class="question" id="question">DIVISION</div>
+      <div class="choices" id="choices"></div>
+      <div class="summary" id="summary"></div>
+      <button id="startBtn" class="start-btn">START</button>
+    </div>
+
+    <!-- Audio elements for feedback sounds -->
+    <audio id="correctSound" src="sounds/positive-short.ogg" preload="auto"></audio>
+    <audio id="wrongSound" src="sounds/negative-short.ogg" preload="auto"></audio>
+
+    <script>
+      let questionCount = 0;
+      let score = 0;
+      const maxQuestions = 20;
+      let totalTime = 5 * 60; // 5 minutes in seconds
+      let timer;
+
+      const correctSound = document.getElementById('correctSound');
+      const wrongSound = document.getElementById('wrongSound');
+
+      const startBtn = document.getElementById('startBtn');
+      const timerElement = document.getElementById('timer');
+      const questionElement = document.getElementById('question');
+      const choicesContainer = document.getElementById('choices');
+      const summaryElement = document.getElementById('summary');
+
+      // Generate random division question and return a question object
+      function generateQuestion() {
+        const divisor = Math.floor(Math.random() * 9) + 2;
+        const correctAnswer = Math.floor(Math.random() * 99) + 3;
+        const num1 = correctAnswer * divisor; // Ensuring no remainder
+
+        const choices = [num1 / divisor];
+
+        // Create 3 more random answer choices
+        while (choices.length < 4) {
+          const randomAnswer =
+            Math.floor(Math.random() * (num1 / divisor + 10 - (num1 / divisor - 10))) + (num1 / divisor - 10); // +/- 10
+          if (!choices.includes(randomAnswer) && randomAnswer >= 0) {
+            choices.push(randomAnswer);
+          }
+        }
+
+        // Shuffle the choices
+        choices.sort(() => Math.random() - 0.5);
+
+        return {
+          num1,
+          divisor,
+          correctAnswer: num1 / divisor,
+          choices,
+        };
+      }
+
+      // Convert time to min:sec format
+      function formatTime(seconds) {
+        const minutes = Math.floor(seconds / 60);
+        const secs = seconds % 60;
+        return `${minutes}:${secs < 10 ? '0' : ''}${secs}`;
+      }
+
+      // Start a timer for the entire quiz
+      function startTimer() {
+        timerElement.textContent = `Time left: ${formatTime(totalTime)}`;
+        timer = setInterval(() => {
+          totalTime--;
+          timerElement.textContent = `Time left: ${formatTime(totalTime)} | Score: ${score}`;
+          if (totalTime === 0) {
+            clearInterval(timer);
+            endQuiz(); // End quiz if time runs out
+          }
+        }, 1000);
+      }
+
+      // Load a new question and update the DOM
+      function loadQuestion() {
+        if (questionCount < maxQuestions && totalTime > 0) {
+          const questionObj = generateQuestion();
+          questionElement.textContent = `${questionObj.num1} ÷ ${questionObj.divisor}`;
+
+          // Clear previous choices
+          choicesContainer.innerHTML = '';
+
+          // Add new choices as buttons
+          questionObj.choices.forEach((choice) => {
+            const button = document.createElement('button');
+            button.textContent = choice; // Show answer
+            button.onclick = () => {
+              checkAnswer(button, choice, questionObj.correctAnswer);
+            };
+            choicesContainer.appendChild(button);
+          });
+        } else {
+          endQuiz(); // End quiz after 20 questions
+        }
+      }
+
+      // Check the user's answer and update the score
+      function checkAnswer(button, choice, correctAnswer) {
+        if (choice === correctAnswer) {
+          correctSound.play(); // Play correct answer sound
+          score++;
+          button.style.backgroundColor = 'green'; // Correct answer turns green
+        } else {
+          wrongSound.play(); // Play wrong answer sound
+          button.style.backgroundColor = 'red'; // Wrong answer turns red
+        }
+
+        // Disable buttons after the user makes a choice
+        const buttons = document.querySelectorAll('.choices button');
+        buttons.forEach((btn) => {
+          btn.disabled = true;
+        });
+
+        // Proceed to the next question after a short delay
+        setTimeout(() => {
+          questionCount++;
+          loadQuestion();
+        }, 1000);
+      }
+
+      // End the quiz and display the score summary
+      function endQuiz() {
+        clearInterval(timer);
+        questionElement.textContent = '';
+        choicesContainer.innerHTML = '';
+        summaryElement.textContent = `Quiz finished! Your score is ${score} out of ${maxQuestions}.`;
+      }
+
+      // Start the quiz when the 'Start Quiz' button is clicked
+      startBtn.addEventListener('click', () => {
+        startBtn.style.display = 'none'; // Hide the start button
+        loadQuestion();
+        startTimer();
+      });
+    </script>
+  </body>
+</html>

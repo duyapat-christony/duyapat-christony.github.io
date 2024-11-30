@@ -1,0 +1,36 @@
+<!-- The Footer -->
+
+<footer
+  aria-label="Site Info"
+  class="
+    d-flex flex-column justify-content-center text-muted
+    flex-lg-row justify-content-lg-between align-items-lg-center pb-lg-3
+  "
+>
+  <p>
+    {{ '©' }}
+    <time>{{ 'now' | date: '%Y' }}</time>
+    <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>.
+    {% if site.data.locales[include.lang].copyright.brief %}
+      <span
+        data-bs-toggle="tooltip"
+        data-bs-placement="top"
+        title="{{ site.data.locales[include.lang].copyright.verbose }}"
+      >
+        {{- site.data.locales[include.lang].copyright.brief -}}
+      </span>
+    {% endif %}
+  </p>
+
+  <!-- Custom Links -->
+  <p>
+    <a href="https://duyapat-christony.github.io" title="Personal Website"><i class="fa fa-user"></i></a> &ensp;
+    <a href="https://www.linkedin.com/in/christonyduyapat" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a> &ensp;
+    <a href="https://github.com/duyapat-christony" target="_blank" title="GitHub"><i class="fab fa-github"></i></a> &ensp;
+    <a href="https://instagram.com/ginoong_chris25/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a> &ensp;
+    <a href="https://facebook.com/christony.duyapat.3" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a> &ensp;
+    <a href="https://m.me/christony.duyapat.3" target="_blank" title="Messenger"><i class="fab fa-facebook-messenger"></i></a> &ensp;
+    <a href="https://ginoongchris.blogspot.com" target="_blank" title="Blog"><i class="fab fa-blogger"></i></a> &ensp;
+    <a href="https://www.youtube.com/@ginoongchris?sub_confirmation=1" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a> &ensp;
+  </p>
+</footer>
