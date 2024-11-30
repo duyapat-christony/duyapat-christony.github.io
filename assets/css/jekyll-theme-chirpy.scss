@@ -1,7 +1,13 @@
-/*
-  Appending custom SCSS variables will override the default ones in `_sass/addon/variables.scsss`
-*/
+---
+---
 
+@use 'main
+{%- if jekyll.environment == ' production ' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
 .loader {
   padding: 0;
   margin: 0;
