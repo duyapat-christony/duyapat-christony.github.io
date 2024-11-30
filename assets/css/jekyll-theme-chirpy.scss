@@ -8,6 +8,21 @@
 ';
 
 /* append your custom style below */
+/*Site-Subtitle - once a teacher, forever a learner */
+.site-subtitle {
+  max-width: 60%;
+}
+
+/*Center Table at larger screen*/
+@media (min-width: 768px) {
+  /* Center the table wrapper */
+  .table-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/*Loader for Lumi Start*/
 .loader {
   padding: 0;
   margin: 0;

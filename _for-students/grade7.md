@@ -80,20 +80,24 @@ These learning materials feature engaging illustrated reading resources and inte
 {% if posts and posts.size > 0 %}
   {% assign posts = posts | sort: 'title' %}
   <div id="post-list" class="flex-grow-1 px-xl-1">
-    {% for post in posts %}
-    <h4 id="header--{{group_index}}" class="visually-hidden">{{ post.title }}</h4>
-      <article class="card-wrapper card">
-        <a href="{{ post.url | relative_url }}" style="color: inherit; text-decoration: none;" class="post-preview row g-0 flex-md-row-reverse">
-          <div class="card-body d-flex flex-column">
-            <h4 data-toc-skip class="card-title my-2 mt-md-0">{{ post.title }}</h4>
-            <div class="card-text content mt-0 mb-3">
-              <p>{% include post-description.html %}</p>
+    <div class="row">
+      {% for post in posts %}
+      <div class="col-md-6 mb-4 d-flex"> <!-- Added d-flex to ensure equal height -->
+        <h4 id="header--{{group_index}}" class="visually-hidden">{{ post.title }}</h4>
+        <article class="card-wrapper card h-100 d-flex flex-column"> <!-- Added h-100 and d-flex to stretch card -->
+          <a href="{{ post.url | relative_url }}" style="color: inherit; text-decoration: none;" class="post-preview card row g-0 flex-md-row-reverse h-100">
+            <div class="card-body d-flex flex-column">
+              <h4 data-toc-skip class="card-title my-2 mt-md-0">{{ post.title }}</h4>
+              <div class="card-text content mt-0 mb-3 flex-grow-1"> <!-- Added flex-grow-1 to allow content to stretch -->
+                <p>{% include post-description.html %}</p>
+              </div>
             </div>
-          </div>
-        </a>
-      </article>
-      {% capture group_index %}{{ group_index | plus: 1 }}{% endcapture %}
-    {% endfor %}
+          </a>
+        </article>
+      </div>
+        {% capture group_index %}{{ group_index | plus: 1 }}{% endcapture %}
+      {% endfor %}
+    </div>
   </div>
 {% else %}
   <blockquote class="prompt-warning">Oops! It looks like there are no learning materials available for Quarter 2 just yet. Stay tuned—content is coming soon!</blockquote>
@@ -115,20 +119,24 @@ These learning materials feature engaging illustrated reading resources and inte
 {% if posts and posts.size > 0 %}
   {% assign posts = posts | sort: 'title' %}
   <div id="post-list" class="flex-grow-1 px-xl-1">
-    {% for post in posts %}
-    <h4 id="header--{{group_index}}" class="visually-hidden">{{ post.title }}</h4>
-      <article class="card-wrapper card">
-        <a href="{{ post.url | relative_url }}" style="color: inherit; text-decoration: none;" class="post-preview row g-0 flex-md-row-reverse">
-          <div class="card-body d-flex flex-column">
-            <h4 data-toc-skip class="card-title my-2 mt-md-0">{{ post.title }}</h4>
-            <div class="card-text content mt-0 mb-3">
-              <p>{% include post-description.html %}</p>
+    <div class="row">
+      {% for post in posts %}
+      <div class="col-md-6 mb-4 d-flex"> <!-- Added d-flex to ensure equal height -->
+        <h4 id="header--{{group_index}}" class="visually-hidden">{{ post.title }}</h4>
+        <article class="card-wrapper card h-100 d-flex flex-column"> <!-- Added h-100 and d-flex to stretch card -->
+          <a href="{{ post.url | relative_url }}" style="color: inherit; text-decoration: none;" class="post-preview card row g-0 flex-md-row-reverse h-100">
+            <div class="card-body d-flex flex-column">
+              <h4 data-toc-skip class="card-title my-2 mt-md-0">{{ post.title }}</h4>
+              <div class="card-text content mt-0 mb-3 flex-grow-1"> <!-- Added flex-grow-1 to allow content to stretch -->
+                <p>{% include post-description.html %}</p>
+              </div>
             </div>
-          </div>
-        </a>
-      </article>
-      {% capture group_index %}{{ group_index | plus: 1 }}{% endcapture %}
-    {% endfor %}
+          </a>
+        </article>
+      </div>
+        {% capture group_index %}{{ group_index | plus: 1 }}{% endcapture %}
+      {% endfor %}
+    </div>
   </div>
 {% else %}
   <blockquote class="prompt-warning">Oops! It looks like there are no learning materials available for Quarter 3 just yet. Stay tuned—content is coming soon!</blockquote>
@@ -149,20 +157,24 @@ These learning materials feature engaging illustrated reading resources and inte
 {% if posts and posts.size > 0 %}
   {% assign posts = posts | sort: 'title' %}
   <div id="post-list" class="flex-grow-1 px-xl-1">
-    {% for post in posts %}
-    <h4 id="header--{{group_index}}" class="visually-hidden">{{ post.title }}</h4>
-      <article class="card-wrapper card">
-        <a href="{{ post.url | relative_url }}" style="color: inherit; text-decoration: none;" class="post-preview row g-0 flex-md-row-reverse">
-          <div class="card-body d-flex flex-column">
-            <h4 data-toc-skip class="card-title my-2 mt-md-0">{{ post.title }}</h4>
-            <div class="card-text content mt-0 mb-3">
-              <p>{% include post-description.html %}</p>
+    <div class="row">
+      {% for post in posts %}
+      <div class="col-md-6 mb-4 d-flex"> <!-- Added d-flex to ensure equal height -->
+        <h4 id="header--{{group_index}}" class="visually-hidden">{{ post.title }}</h4>
+        <article class="card-wrapper card h-100 d-flex flex-column"> <!-- Added h-100 and d-flex to stretch card -->
+          <a href="{{ post.url | relative_url }}" style="color: inherit; text-decoration: none;" class="post-preview card row g-0 flex-md-row-reverse h-100">
+            <div class="card-body d-flex flex-column">
+              <h4 data-toc-skip class="card-title my-2 mt-md-0">{{ post.title }}</h4>
+              <div class="card-text content mt-0 mb-3 flex-grow-1"> <!-- Added flex-grow-1 to allow content to stretch -->
+                <p>{% include post-description.html %}</p>
+              </div>
             </div>
-          </div>
-        </a>
-      </article>
-      {% capture group_index %}{{ group_index | plus: 1 }}{% endcapture %}
-    {% endfor %}
+          </a>
+        </article>
+      </div>
+        {% capture group_index %}{{ group_index | plus: 1 }}{% endcapture %}
+      {% endfor %}
+    </div>
   </div>
 {% else %}
   <blockquote class="prompt-warning">Oops! It looks like there are no learning materials available for Quarter 4 just yet. Stay tuned—content is coming soon!</blockquote>
