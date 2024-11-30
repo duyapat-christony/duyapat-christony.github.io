@@ -11,28 +11,9 @@ order: 6
   Welcome to my personal website, where I share my journey and resources. Explore to learn more about my interests and the things that I do.
 {: .prompt-info }
 
-<p class="d-sm-inline-flex gap-1">
-  <button
-    data-bs-toggle="collapse" 
-    data-bs-target="#fun-facts-or-not" 
-    aria-expanded="false" 
-    aria-controls="fun-facts-or-not" 
-    style="border: none; border-radius: 10px; padding: 2px 10px; color: var(--text-color); margin: 5px 0;" 
-    onmouseover="this.style.filter='brightness(0.95)'" 
-    onmouseout="this.style.filter='brightness(1)'">
-    <strong>📣 FUN FACTS (or not)</strong>
-  </button>
-  <!--
-  <button
-    style="border: none; border-radius: 10px; padding: 2px 10px; color: var(--text-color); margin: 5px 0;" 
-    onmouseover="this.style.filter='brightness(0.95)'" 
-    onmouseout="this.style.filter='brightness(1)'"
-    onclick="window.open('https://tinyurl.com/duyapat-christony-cv');">
-    <strong>📜 Curriculum Vitae</strong>
-  </button>
-  -->
-</p>
-<div class="collapse" id="fun-facts-or-not">
+<p>
+<details>
+  <summary class="solution"><strong>📣 FUN FACTS (or not)</strong></summary>
     <blockquote class="prompt-tip">
       Fun fact: I once tried to count how many times I blink in a day. Turns out, I am terrible at counting but I guess I’m pretty good at blinking! 😉
     </blockquote>
@@ -51,7 +32,8 @@ order: 6
     <blockquote class="prompt-danger">
       If you’re hoping for wild adventures, you might need to lower your expectations. I’m just a regular boring guy. 😴
     </blockquote>
-</div>
+</details>
+</p>
 
 > **EDUCATION**
 {: .prompt-info }
