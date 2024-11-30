@@ -28,8 +28,8 @@
   background: var(--button-bg);
   color: var(--btn-backtotop-color);
   padding: 0;
-  width: $back2top-size;
-  height: $back2top-size;
+  width: 2.75rem;
+  height: 2.75rem;
   border-radius: 50%;
   box-shadow: 0 0 0 1px var(--main-border-color);
   border: 1px solid var(--btn-backtotop-border-color);
@@ -42,7 +42,7 @@
 
   @media (min-width: 850px) {
     right: 11%;
-    bottom: calc($footer-height - $back2top-size / 2);
+    bottom: calc(6rem - 2.75rem / 2);
   }
   @media (min-width: 1400px) {
     right: calc((100vw - 260px - 1140px) / 2 + 7rem);
