@@ -39,9 +39,11 @@ Drag any vertex of the triangle and observe what happens to the measure of the e
 
 Following the **Exterior Angle Theorem**, we can solve for the measure of the exterior angle or its adjacent interior angle when either one is given. For example, if the exterior angle of a polygon measures 100°, then the adjacent interior angle will measure 80° because 100° + 80° = 180°, making them supplementary angles. Or if the adjacent interior angle is 20, then the exterior angle will be 160° because 20° + 160° = 180°.
 
-## Examples
+## Sample Problems
 
-**Example 1:** If ∠1 measures 120° (or m∠1 = 120°), what is the measure of its adjacent interior angle?
+### Example 1
+
+If ∠1 measures 120° (or m∠1 = 120°), what is the measure of its adjacent interior angle?
 
 **Solution:** Let's name the adjacent interior angle of ∠1 as ∠3
 
@@ -56,7 +58,9 @@ Therefore, the measure of the adjacent interior angle is 60°.
 
 ---
 
-**Example 2:** If m∠2 = 38°, find the measure of m∠5, given that ∠2 is an exterior angle and ∠5 is its adjacent interior angle.
+### Example 2
+
+If m∠2 = 38°, find the measure of m∠5, given that ∠2 is an exterior angle and ∠5 is its adjacent interior angle.
 
 **Solution:** ∠2 and ∠5 are supplementary angles so their measures must add up to 180°.
 
@@ -69,7 +73,9 @@ Therefore, the measure of ∠5 is 142°.
 
 ---
 
-**Example 3:** If m∠4 = 75°, where ∠4 is the exterior angle and ∠6 is its adjacent interior angle. Calculate the measure of m∠6.
+### Example 3
+
+If m∠4 = 75°, where ∠4 is the exterior angle and ∠6 is its adjacent interior angle. Calculate the measure of m∠6.
 
 **Solution:** ∠4 and ∠6 are supplementary angles so their measures must add up to 180°.
 
@@ -82,7 +88,9 @@ Therefore, the measure of ∠6 is 105°.
 
 ---
 
-**Example 4:** Given m∠7 = 56°, determine m∠8, where ∠7 is an exterior angle and ∠8 is the adjacent interior angle.
+### Example 4
+
+Given m∠7 = 56°, determine m∠8, where ∠7 is an exterior angle and ∠8 is the adjacent interior angle.
 
 **Solution:** Since ∠7 and ∠8 are supplementary angles, their measures add up to 180°.
 
@@ -95,7 +103,9 @@ Therefore, the measure of ∠8 is 124°.
 
 ---
 
-**Example 5:** If m∠9 = 40°, find the measure of m∠10, given that ∠9 is an exterior angle and ∠10 is an adjacent angle.
+### Example 5
+
+If m∠9 = 40°, find the measure of m∠10, given that ∠9 is an exterior angle and ∠10 is an adjacent angle.
 
 **Solution:** Since ∠9 and ∠10 are supplementary angles, they must add up to 180°.
 
@@ -108,7 +118,9 @@ Therefore, the measure of ∠10 is 140°.
 
 ---
 
-**Example 6:** Find the measure of m∠12 if m∠11 = 63°, with ∠11 as an exterior angle and ∠12 as the adjacent interior angle.
+### Example 6
+
+Find the measure of m∠12 if m∠11 = 63°, with ∠11 as an exterior angle and ∠12 as the adjacent interior angle.
 
 **Solution:** Since ∠11 and ∠12 are supplementary angles, their measures add up to 180°.
 

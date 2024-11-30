@@ -9,7 +9,7 @@ toc: false
 order: 7
 ---
 
-> 🌻🌻 Your goal is to guess the hidden word by choosing letters. Each wrong guess causes a butterfly to fly away, making the flower sad! If you're on a computer, you can use your keyboard. Feel free to take a screenshot of your highest score and share it in the comment section!🌻🌻
+> 🌻🌻Your mission is to uncover the hidden word by guessing letters. Each incorrect guess sends a butterfly fluttering away, leaving the flower sad! Don’t let the flower lose its joy. If you're on a computer, you can use your keyboard. Feel free to take a screenshot of your highest score and share it in the comment section!🌻🌻
 {: .prompt-tip }
 
 <iframe id="flowers-dilemma" src="https://duyapat-christony.github.io/hangman-grade7-math" style="width: 100%; height: 200px; border: none;"></iframe>

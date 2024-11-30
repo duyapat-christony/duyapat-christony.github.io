@@ -9,7 +9,7 @@ toc: true
 order: 4
 ---
 
-> Meet your study buddy chatbot, powered by Google Gemini Generative AI! Feel free to ask about any concepts you're struggling with. Just keep in mind that it might occasionally provide inaccurate info, so use it with caution. You can also chat with it using the floating button at the bottom right of the learning materials. For further guidance, read the [guidelines](#guidelines-on-the-use-of-the-chatbot) on the use of generative AI below.
+> Meet your study buddy chatbot, powered by Google Gemini Generative AI! Feel free to ask about any concepts you're struggling with. Just keep in mind that it might occasionally provide inaccurate info, so use it with caution. You can also chat with it using the **floating button at the bottom right of the learning materials**. For further guidance, read the [guidelines](#guidelines-on-the-use-of-the-chatbot) on the use of generative AI below.
 {: .prompt-info }
 
 {% include menu-for-students.html %}

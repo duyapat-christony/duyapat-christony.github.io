@@ -14,7 +14,7 @@ order: 2
 
 <blockquote class="prompt-tip">
   <strong>Don't Miss Out!</strong> Stay in the loop with all the latest schedule and announcements. Check the class
-  calendar regularly for upcoming events, important deadlines, and everything you need to stay on top of your class
+  calendar 🗓️ regularly for upcoming events 💼, important deadlines 📰, and everything you need to stay on top of your class
   activities. By staying organized, you’ll be ready for whatever comes next! 🤗
 </blockquote>
 

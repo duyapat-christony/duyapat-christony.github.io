@@ -24,7 +24,7 @@ According to the MATATAG Curriculum, here’s what Grade 7 Mathematics students 
 > **Data and Probability:** This involves collecting and sampling data, presenting data in tables and graphs, interpreting statistical graphs, and understanding experimental outcomes.
 {: .prompt-tip}
 
-These learning materials include illustrated reading resources and interactive activities designed to help students master the learning competencies.
+These learning materials feature engaging illustrated reading resources and interactive activities designed to help students master key learning competencies. They are thoughtfully crafted primarily based on the lesson exemplars provided by DepEd. All copyright belong to the rightful owners.
 
 ## Quarter 1
 

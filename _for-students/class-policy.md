@@ -57,7 +57,7 @@ I might update this policy if needed. You’ll always be kept in the loop!
 {: .prompt-warning }
 
 >
-**What Happens If You Break the Rules?**
+**What Happens If You Break the Rules?**<br>
 If you don’t follow these guidelines, you may receive a warning, and in some cases, your content may be removed. Let’s keep our space safe and enjoyable for everyone!
 {: .prompt-danger }
 
