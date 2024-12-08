@@ -330,4 +330,6 @@ The measure of one interior angle of a regular polygon is $ 140 ^\circ $. How ma
 
 In this lesson, you learned how to calculate the number of sides, the measures of interior angles as well as exterior angles of a polygon. Understanding these concepts helps us see the mathematical patterns in geometric shapes and prepares us for more advanced topics in geometry. Remember, the sum of the interior angles depends on the number of sides and is given by $ (n - 2) \times 180^\circ $ where $ n $ is the number of sides. Additionally, the sum of the exterior angles of any polygon is always $ 360^\circ $. With practice, you’ll master these formulas and be able to solve problems involving polygons with confidence!
 
+*Disclaimer: All GeoGebra resources are the intellectual property of their respective creators. Some parts have been modified or adapted for another purpose.*
+
 {% include chrischatbot-bubble.html %}

@@ -58,4 +58,6 @@ You may explore this Geogebra to better understand what is convex or non-convex 
 ## Check Your Understanding
 Now that you’ve learned how to classify polygons as convex or non-convex, let’s see if you can apply what you know. Take a look around you—can you find examples of convex or concave polygons in everyday objects? Try drawing them and classify each one.
 
+*Disclaimer: All GeoGebra resources are the intellectual property of their respective creators. Some parts have been modified or adapted for another purpose.*
+
 {% include chrischatbot-bubble.html %}

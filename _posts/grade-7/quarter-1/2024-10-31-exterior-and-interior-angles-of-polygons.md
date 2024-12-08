@@ -71,4 +71,6 @@ This means that if you measure the exterior angles of any polygon and add them t
   </iframe>
 </div>
 
+*Disclaimer: All GeoGebra resources are the intellectual property of their respective creators. Some parts have been modified or adapted for another purpose.*
+
 {% include chrischatbot-bubble.html %}

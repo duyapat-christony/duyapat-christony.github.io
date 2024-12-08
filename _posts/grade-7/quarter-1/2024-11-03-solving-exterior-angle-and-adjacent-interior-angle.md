@@ -140,4 +140,6 @@ Try doing this activity. Apply the Exterior Angle Theorem or the other Angle Pai
   <script src="/assets/lumi/h5p-resizer.js" charset="UTF-8"></script>
 </div>
 
+*Disclaimer: All GeoGebra resources are the intellectual property of their respective creators. Some parts have been modified or adapted for another purpose.*
+
 {% include chrischatbot-bubble.html %}

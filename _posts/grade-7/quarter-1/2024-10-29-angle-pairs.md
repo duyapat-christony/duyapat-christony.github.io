@@ -88,4 +88,6 @@ Interact with the illustration below to visualize linear pair and vertical angle
   </iframe>
 </div>
 
+*Disclaimer: All GeoGebra resources are the intellectual property of their respective creators. Some parts have been modified or adapted for another purpose.*
+
 {% include chrischatbot-bubble.html %}
