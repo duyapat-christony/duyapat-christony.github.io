@@ -101,34 +101,37 @@
 
       // Generate random subtraction question and return a question object
       function generateQuestion() {
-        const num1 = Math.floor(Math.random() * 900) + 100; // Three-digit number (100 to 999)
-        const num2 = Math.floor(Math.random() * (num1 - 100)) + 100; // Ensure num2 is less than num1
-        const correctAnswer = num1 - num2;
+        // Generate numbers between -499 and 499
+        const num1 = Math.floor(Math.random() * 999) - 499;
+        const num2 = Math.floor(Math.random() * 999) - 499;
+
+        const correctAnswer = num1 - num2; // Subtraction operation
         const choices = [correctAnswer];
 
         // Create 3 more random answer choices
         while (choices.length < 4) {
-          // Pick a random value
-          const offsetOptions = [-30, -20, -10, 10, 20, 30, -300, -200, -100, 100, 200, 300];
+          // Pick a random offset value
+          const offsetOptions = [-500, -400, -300, -200, -30, -20, -10, 10, 20, 30, -100, 100, 200, 300, 400, 500];
           const randomOffset = offsetOptions[Math.floor(Math.random() * offsetOptions.length)];
 
           // Generate the random answer by adding the offset to the correct answer
           const randomAnswer = correctAnswer + randomOffset;
 
-          // Ensure the random answer is unique and positive
-          if (!choices.includes(randomAnswer) && randomAnswer > 0) {
+          // Ensure the random answer is unique
+          if (!choices.includes(randomAnswer)) {
             choices.push(randomAnswer);
           }
         }
 
-        // Shuffle the choices
+        // Shuffle the choices array
         choices.sort(() => Math.random() - 0.5);
 
         return {
           num1,
           num2,
-          correctAnswer,
+          question: `${num1} - ${num2} = ?`,
           choices,
+          correctAnswer,
         };
       }
 
@@ -156,7 +159,7 @@
       function loadQuestion() {
         if (questionCount < maxQuestions && totalTime > 0) {
           const questionObj = generateQuestion();
-          questionElement.textContent = `${questionObj.num1} - ${questionObj.num2}`;
+          questionElement.textContent = `${questionObj.num1} - ${questionObj.num2} = ?`;
 
           // Clear previous choices
           choicesContainer.innerHTML = '';

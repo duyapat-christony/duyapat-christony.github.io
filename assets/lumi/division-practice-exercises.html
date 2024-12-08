@@ -151,7 +151,7 @@
       function loadQuestion() {
         if (questionCount < maxQuestions && totalTime > 0) {
           const questionObj = generateQuestion();
-          questionElement.textContent = `${questionObj.num1} ÷ ${questionObj.divisor}`;
+          questionElement.textContent = `${questionObj.num1} ÷ ${questionObj.divisor} = ?`;
 
           // Clear previous choices
           choicesContainer.innerHTML = '';

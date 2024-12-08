@@ -154,7 +154,7 @@
       function loadQuestion() {
         if (questionCount < maxQuestions && totalTime > 0) {
           const questionObj = generateQuestion();
-          questionElement.textContent = `${questionObj.num1} x ${questionObj.num2}`;
+          questionElement.textContent = `${questionObj.num1} x ${questionObj.num2} = ?`;
 
           // Clear previous choices
           choicesContainer.innerHTML = '';
