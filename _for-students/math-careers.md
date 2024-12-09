@@ -9,16 +9,17 @@ toc: true
 order: 7
 ---
 
-Hey, mga **MATHatag** at **MATHalinong** mag-aaral! 👋
-
-Naisip mo na ba kung saan ka maaaring dalhin ng mga numero, hugis, at equations na pinag-aaralan mo? Guess what 🤔, math isn’t just about solving for x and y! It’s a superpower that can open doors to some of the coolest and most rewarding careers out there. Kung pangarap mo ang magdesign ng mga skyscraper, mag-crack ng secret codes, o gumawa ng mga video games, math is key para magtagumpay sa mga pangarap mo!
-
-Kung minsan naiisip mo, “Kailan ko ba gagamitin ang math sa tunay na buhay?” 💁Well, here’s the answer! The possibilities are endless, at ikaw ang magco-compute ng sarili mong future. Check out ang listahan ng mga amazing math-powered careers at tingnan kung alin ang pinaka-inspiring para sa’yo.
-
-Which career excites you the most? Share mo sa comment section. I’d love to hear from you! 😁
+> Hello 👋, mga **MATHatag** at **MATHalinong** mag-aaral!
+> 
+> Naisip mo na ba kung saan ka maaaring dalhin ng mga numero, hugis, at equations na pinag-aaralan mo sa math? Guess what 🤔, math isn’t just about solving for x and y! It’s a superpower that can open doors to some of the coolest and most rewarding careers out there. Kung pangarap mo ang magdesign ng mga skyscraper, mag-crack ng secret codes, o gumawa ng mga video games, math is one of the key para magtagumpay sa mga pangarap mo!
+> 
+> Kung minsan naiisip mo, “Kailan ko ba gagamitin ang math sa tunay na buhay?” 💁Well, here’s the answer! The possibilities are endless, at ikaw ang magco-compute ng sarili mong future. Check out ang listahan ng mga amazing math-powered careers at tingnan kung alin ang pinaka-inspiring para sa’yo.
+> 
+> Which career excites you the most? Share mo sa comment section. I’d love to hear from you! 😁
+{: .prompt-tip}
 
 ## Science and Engineering
-<div class="container my-5">
+<div class="container my-3">
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
 
   <div class="col">
@@ -122,7 +123,7 @@ Which career excites you the most? Share mo sa comment section. I’d love to he
 
 ## Technology
 
-<div class="container my-5">
+<div class="container my-3">
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
   
   <div class="col">
@@ -214,7 +215,7 @@ Which career excites you the most? Share mo sa comment section. I’d love to he
 
 ## Business and Finance
 
-<div class="container my-5">
+<div class="container my-3">
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
 
   <div class="col">
@@ -318,7 +319,7 @@ Which career excites you the most? Share mo sa comment section. I’d love to he
 
 ## Educationa and Academia
 
-<div class="container my-5">
+<div class="container my-3">
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
   
   <div class="col">
@@ -374,7 +375,7 @@ Which career excites you the most? Share mo sa comment section. I’d love to he
 
 ## Creative and Specialized Fields
 
-<div class="container my-5">
+<div class="container my-3">
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
   
   <div class="col">
@@ -466,7 +467,7 @@ Which career excites you the most? Share mo sa comment section. I’d love to he
 
 ## Emerging Fields
 
-<div class="container my-5">
+<div class="container my-3">
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
   
   <div class="col">
@@ -520,8 +521,11 @@ Which career excites you the most? Share mo sa comment section. I’d love to he
   </div>
 </div>
 
-Math isn’t just about solving equations, it’s about solving real-world problems and creating impactful solutions. The careers listed here showcase the incredible variety of paths that math can lead you to, from shaping technological innovations to driving financial success, or even contributing to scientific breakthroughs. Each of these careers is a chance to turn your love for math into something meaningful and rewarding.
-
-So, whether you're dreaming of decoding secrets, designing cutting-edge technologies, or making sense of the world through numbers, math gives you the tools to succeed. Keep exploring, keep learning, and remember: math isn’t just a skill, it’s your ticket to shaping the future!
+> Math isn’t just about solving equations, it’s about solving real-world problems and creating impactful solutions. The careers listed here showcase the incredible variety of paths that math can lead you to, from shaping technological innovations to driving financial success, or even contributing to scientific breakthroughs. Each of these careers is a chance to turn your love for math into something meaningful and rewarding.
+> 
+> So, whether you're dreaming of decoding secrets, designing cutting-edge technologies, or making sense of the world through numbers, math gives you the tools to succeed. Keep exploring, keep learning, and remember: math isn’t just a skill, it’s your ticket to shaping the future!
+{: .prompt-tip}
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+{% include menu-for-students.html %}
