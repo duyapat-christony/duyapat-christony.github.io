@@ -25,7 +25,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="data-scientist" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Data Scientist</span></h3>
+      <h3 id="data-scientist" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Data Scientist</span></h3>
         <p class="card-text">Analyzes large datasets to uncover trends and make predictions, helping organizations make informed decisions.</p>
       </div>
       <div class="card-footer text-center">
@@ -37,7 +37,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="statistician" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Statistician</span></h3>
+      <h3 id="statistician" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Statistician</span></h3>
         <p class="card-text">Collects and analyzes data to provide insights in fields like health, sports, and business.</p>
       </div>
       <div class="card-footer text-center">
@@ -49,7 +49,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="cryptographer" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Cryptographer</span></h3>
+      <h3 id="cryptographer" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Cryptographer</span></h3>
         <p class="card-text">Develops secure systems to protect sensitive data and fight cybercrime.</p>
       </div>
       <div class="card-footer text-center">
@@ -61,7 +61,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="aerospace-engineer" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Aerospace Engineer</span></h3>
+      <h3 id="aerospace-engineer" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Aerospace Engineer</span></h3>
         <p class="card-text">Designs and tests aircraft, spacecraft, and systems for air and space travel.</p>
       </div>
       <div class="card-footer text-center">
@@ -73,7 +73,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="civil-engineer" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Civil Engineer</span></h3>
+      <h3 id="civil-engineer" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Civil Engineer</span></h3>
         <p class="card-text">Plans and constructs infrastructure like bridges, roads, and buildings.</p>
       </div>
       <div class="card-footer text-center">
@@ -85,7 +85,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="mechanical-engineer" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Mechanical Engineer</span></h3>
+      <h3 id="mechanical-engineer" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Mechanical Engineer</span></h3>
         <p class="card-text">Designs machines and mechanical systems, from engines to robotics.</p>
       </div>
       <div class="card-footer text-center">
@@ -97,7 +97,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="electrical-engineer" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Electrical Engineer</span></h3>
+      <h3 id="electrical-engineer" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Electrical Engineer</span></h3>
         <p class="card-text">Works with electrical systems, including circuits, power generation, and electronics.</p>
       </div>
       <div class="card-footer text-center">
@@ -109,7 +109,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="environmental-scientist" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Environmental Scientist</span></h3>
+      <h3 id="environmental-scientist" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Environmental Scientist</span></h3>
         <p class="card-text">Uses math to study and solve environmental issues, like pollution and climate change.</p>
       </div>
       <div class="card-footer text-center">
@@ -129,7 +129,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="computer-programmer" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Computer Programmer</span></h3>
+      <h3 id="computer-programmer" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Computer Programmer</span></h3>
         <p class="card-text">Writes code to create software, websites, and applications.</p>
       </div>
       <div class="card-footer text-center">
@@ -141,7 +141,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="software-developer" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Software Developer</span></h3>
+      <h3 id="software-developer" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Software Developer</span></h3>
         <p class="card-text">Designs and builds software systems, improving functionality and user experiences.</p>
       </div>
       <div class="card-footer text-center">
@@ -153,7 +153,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="game-developer" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Game Developer</span></h3>
+      <h3 id="game-developer" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Game Developer</span></h3>
         <p class="card-text">Combines creativity and math to build interactive and realistic video games.</p>
       </div>
       <div class="card-footer text-center">
@@ -165,7 +165,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="cybersecurity-analyst" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Cybersecurity Analyst</span></h3>
+      <h3 id="cybersecurity-analyst" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Cybersecurity Analyst</span></h3>
         <p class="card-text">Protects systems and data from hackers using mathematical and technical strategies.</p>
       </div>
       <div class="card-footer text-center">
@@ -177,7 +177,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="data-engineer" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Data Engineer</span></h3>
+      <h3 id="data-engineer" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Data Engineer</span></h3>
         <p class="card-text">Designs, builds, and manages the infrastructure that allows organizations to collect, store, and analyze data efficiently.</p>
       </div>
       <div class="card-footer text-center">
@@ -189,7 +189,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="database-administrator" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Database Administrator</span></h3>
+      <h3 id="database-administrator" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Database Administrator</span></h3>
         <p class="card-text">Manages and organizes data efficiently, ensuring database security, integrity, and performance.</p>
       </div>
       <div class="card-footer text-center">
@@ -201,7 +201,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="machine-learning-engineer" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Machine Learning Engineer</span></h3>
+      <h3 id="machine-learning-engineer" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Machine Learning Engineer</span></h3>
         <p class="card-text">Develops AI systems that learn from data to perform tasks like facial recognition or recommendation systems.</p>
       </div>
       <div class="card-footer text-center">
@@ -221,7 +221,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="financial-analyst" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Financial Analyst</span></h3>
+      <h3 id="financial-analyst" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Financial Analyst</span></h3>
         <p class="card-text">Evaluates financial data to guide investment and business decisions.</p>
       </div>
       <div class="card-footer text-center">
@@ -233,7 +233,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="accountant" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Accountant</span></h3>
+      <h3 id="accountant" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Accountant</span></h3>
         <p class="card-text">Manages and interprets financial records to ensure accuracy and compliance.</p>
       </div>
       <div class="card-footer text-center">
@@ -245,7 +245,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="investment-banker" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Investment Banker</span></h3>
+      <h3 id="investment-banker" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Investment Banker</span></h3>
         <p class="card-text">Advises companies on financial strategies, mergers, and investments.</p>
       </div>
       <div class="card-footer text-center">
@@ -257,7 +257,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="budget-analyst" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Budget Analyst</span></h3>
+      <h3 id="budget-analyst" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Budget Analyst</span></h3>
         <p class="card-text">Helps organizations plan and manage their finances efficiently.</p>
       </div>
       <div class="card-footer text-center">
@@ -269,7 +269,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="economist" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Economist</span></h3>
+      <h3 id="economist" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Economist</span></h3>
         <p class="card-text">Studies economies, markets, and policies to understand trends and recommend strategies.</p>
       </div>
       <div class="card-footer text-center">
@@ -281,7 +281,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="market-research-analyst" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Market Research Analyst</span></h3>
+      <h3 id="market-research-analyst" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Market Research Analyst</span></h3>
         <p class="card-text">Analyzes consumer data to guide product development and marketing.</p>
       </div>
       <div class="card-footer text-center">
@@ -293,7 +293,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="actuary" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Actuary</span></h3>
+      <h3 id="actuary" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Actuary</span></h3>
         <p class="card-text">Uses math to assess risks and design strategies for insurance, finance, and investments.</p>
       </div>
       <div class="card-footer text-center">
@@ -305,7 +305,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="insurance-underwriter" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Insurance Underwriter</span></h3>
+      <h3 id="insurance-underwriter" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Insurance Underwriter</span></h3>
         <p class="card-text">Assesses risks and determines insurance policies and premiums.</p>
       </div>
       <div class="card-footer text-center">
@@ -325,7 +325,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="mathematics-teacher" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Mathematics Teacher</span></h3>
+      <h3 id="mathematics-teacher" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Mathematics Teacher</span></h3>
         <p class="card-text">Teaches math concepts and inspires the next generation of problem solvers.</p>
       </div>
       <div class="card-footer text-center">
@@ -337,7 +337,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="math-curriculum-developer" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Math Curriculum Developer</span></h3>
+      <h3 id="math-curriculum-developer" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Math Curriculum Developer</span></h3>
         <p class="card-text">Designs engaging and effective math learning materials.</p>
       </div>
       <div class="card-footer text-center">
@@ -349,7 +349,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="research-mathematician" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Research Mathematician</span></h3>
+      <h3 id="research-mathematician" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Research Mathematician</span></h3>
         <p class="card-text">Explores advanced mathematical theories and applications.</p>
       </div>
       <div class="card-footer text-center">
@@ -361,7 +361,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="educational-technologist" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Educational Technologist</span></h3>
+      <h3 id="educational-technologist" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Educational Technologist</span></h3>
         <p class="card-text">Develops and integrates technology to improve teaching and learning.</p>
       </div>
       <div class="card-footer text-center">
@@ -381,7 +381,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="architect" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Architect</span></h3>
+      <h3 id="architect" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Architect</span></h3>
         <p class="card-text">Blends design and geometry to create functional and aesthetically pleasing buildings.</p>
       </div>
       <div class="card-footer text-center">
@@ -393,7 +393,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="urban-planner" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Urban Planner</span></h3>
+      <h3 id="urban-planner" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Urban Planner</span></h3>
         <p class="card-text">Designs city layouts, focusing on infrastructure, housing, and sustainability.</p>
       </div>
       <div class="card-footer text-center">
@@ -405,7 +405,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="forensic-analyst" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Forensic Analyst</span></h3>
+      <h3 id="forensic-analyst" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Forensic Analyst</span></h3>
         <p class="card-text">Uses data and evidence to solve crimes and support legal investigations.</p>
       </div>
       <div class="card-footer text-center">
@@ -417,7 +417,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="astronomer" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Astronomer</span></h3>
+      <h3 id="astronomer" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Astronomer</span></h3>
         <p class="card-text">Studies celestial phenomena, analyzing data to understand the universe.</p>
       </div>
       <div class="card-footer text-center">
@@ -429,7 +429,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="biostatistician" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Biostatistician</span></h3>
+      <h3 id="biostatistician" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Biostatistician</span></h3>
         <p class="card-text">Applies math to medical and biological research, improving health outcomes.</p>
       </div>
       <div class="card-footer text-center">
@@ -441,7 +441,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="sports-statistician" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Sports Statistician</span></h3>
+      <h3 id="sports-statistician" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Sports Statistician</span></h3>
         <p class="card-text">Analyzes player and team data to guide strategies and performance improvement.</p>
       </div>
       <div class="card-footer text-center">
@@ -453,7 +453,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="mathematical-modeler" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Mathematical Modeler</span></h3>
+      <h3 id="mathematical-modeler" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Mathematical Modeler</span></h3>
         <p class="card-text">Creates simulations for industries like gaming, physics, or finance.</p>
       </div>
       <div class="card-footer text-center">
@@ -473,7 +473,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="blockchain-developer" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Blockchain Developer</span></h3>
+      <h3 id="blockchain-developer" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Blockchain Developer</span></h3>
         <p class="card-text">Builds secure and transparent systems for cryptocurrency and decentralized applications.</p>
       </div>
       <div class="card-footer text-center">
@@ -485,7 +485,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="computational-biologist" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Computational Biologist</span></h3>
+      <h3 id="computational-biologist" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Computational Biologist</span></h3>
         <p class="card-text">Uses algorithms to analyze biological data and solve problems in genetics and medicine.</p>
       </div>
       <div class="card-footer text-center">
@@ -497,7 +497,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="climate-data-analyst" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Climate Data Analyst</span></h3>
+      <h3 id="climate-data-analyst" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Climate Data Analyst</span></h3>
         <p class="card-text">Studies environmental data to address climate change and design sustainable solutions.</p>
       </div>
       <div class="card-footer text-center">
@@ -509,7 +509,7 @@ order: 7
   <div class="col">
     <div class="card h-100">
       <div class="card-body">
-      <h3 id="quantum-computing-specialist" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem;"><span class="me-2">Quantum Computing Specialist</span></h3>
+      <h3 id="quantum-computing-specialist" class="mt-0 mb-1" style="font-weight: bold; font-size: 1.08rem; color: #2a2a2a"><span class="me-2">Quantum Computing Specialist</span></h3>
         <p class="card-text">Works on futuristic computers that solve problems faster using quantum mechanics.</p>
       </div>
       <div class="card-footer text-center">
