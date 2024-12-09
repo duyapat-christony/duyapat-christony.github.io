@@ -526,6 +526,4 @@ order: 7
 > So, whether you're dreaming of decoding secrets, designing cutting-edge technologies, or making sense of the world through numbers, math gives you the tools to succeed. Keep exploring, keep learning, and remember: math isn’t just a skill, it’s your ticket to shaping the future!
 {: .prompt-tip}
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
 {% include menu-for-students.html %}
