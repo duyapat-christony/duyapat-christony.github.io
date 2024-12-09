@@ -3,6 +3,7 @@ layout: post
 title: Explore Math Careers
 subtitle: Are you thinking of a math-driven career? Explore these different inspiring options!
 date: 2024-12-07 00:00:00 +0800
+image: /assets/thumbnails/math-careers-thumbnail.webp
 thumbnail: /assets/thumbnails/math-careers.webp
 comments: true
 toc: true
