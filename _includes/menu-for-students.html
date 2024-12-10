@@ -35,7 +35,13 @@
     class="dropdown-menu"
     style="background: var(--sidebar-bg); color: var(--text-color); z-index: 1050; margin: 20px 0; border-radius: 1rem;"
   >
-    <li class="dropdown-item disabled" style="color: var(--heading-color);"><strong>📒 For Students Menu</strong></li>
+    <li
+      class="dropdown-item"
+      style="color: var(--heading-color);"
+      onclick="location.href='/for-students';"
+    >
+      <strong>📒 For Students Menu</strong>
+    </li>
     <li><hr class="dropdown-divider mb-0 mt-1"></li>
     {% assign student_files = site['for-students'] %}
     {% for file in student_files %}
