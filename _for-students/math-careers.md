@@ -318,7 +318,7 @@ order: 7
   </div>
 </div>
 
-## Educationa and Academia
+## Education and Academia
 
 <div class="container my-3">
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
