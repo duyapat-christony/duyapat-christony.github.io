@@ -68,20 +68,20 @@ order: 6
     </summary>
       <div>
         <!--start-->
-        <a href="https://www.coursera.org/account/accomplishments/specialization/8XQQKWQ7S9OK" target="_blank"><i class="fas fa-external-link-alt">&ensp;</i>Google 
+        <a href="https://www.coursera.org/account/accomplishments/specialization/8XQQKWQ7S9OK" target="certificates"><i class="fas fa-external-link-alt">&ensp;</i>Google 
         Advanced Data Analytics Professional Certificate</a> <i> - November 2024</i> <br>
         <!--start-->
-        <a href="https://www.coursera.org/account/accomplishments/records/18HWDU7SKVX1" target="_blank"><i class="fas fa-external-link-alt">&ensp;</i>The Nuts and Bolts of Machine Learning</a> <i> - November 2024</i> <br>
+        <a href="https://www.coursera.org/account/accomplishments/records/18HWDU7SKVX1" target="certificates"><i class="fas fa-external-link-alt">&ensp;</i>The Nuts and Bolts of Machine Learning</a> <i> - November 2024</i> <br>
         <!--start-->
-        <a href="https://www.coursera.org/account/accomplishments/records/R7II3FE2HAR8" target="_blank"><i class="fas fa-external-link-alt">&ensp;</i>Regression Analysis: Simplify Complex Data Relationships</a> <i> - November 2024</i> <br>
+        <a href="https://www.coursera.org/account/accomplishments/records/R7II3FE2HAR8" target="certificates"><i class="fas fa-external-link-alt">&ensp;</i>Regression Analysis: Simplify Complex Data Relationships</a> <i> - November 2024</i> <br>
         <!--start-->
-        <a href="https://www.coursera.org/account/accomplishments/records/Y4AQCCETA2G2" target="_blank"><i class="fas fa-external-link-alt">&ensp;</i>The Power of Statistics</a> <i> - October 2024</i> <br>
+        <a href="https://www.coursera.org/account/accomplishments/records/Y4AQCCETA2G2" target="certificates"><i class="fas fa-external-link-alt">&ensp;</i>The Power of Statistics</a> <i> - October 2024</i> <br>
         <!--start-->
-        <a href="https://www.coursera.org/account/accomplishments/records/J0CYAEHD2DMV" target="_blank"><i class="fas fa-external-link-alt">&ensp;</i>Go Beyond the Numbers: Translate Data into Insights</a> <i> - September 2024</i> <br>
+        <a href="https://www.coursera.org/account/accomplishments/records/J0CYAEHD2DMV" target="certificates"><i class="fas fa-external-link-alt">&ensp;</i>Go Beyond the Numbers: Translate Data into Insights</a> <i> - September 2024</i> <br>
         <!--start-->
-        <a href="https://www.coursera.org/account/accomplishments/records/0Y1BOL4R8UK0" target="_blank"><i class="fas fa-external-link-alt">&ensp;</i>Get Started with Python</a> <i> - August 2024</i> <br>
+        <a href="https://www.coursera.org/account/accomplishments/records/0Y1BOL4R8UK0" target="certificates"><i class="fas fa-external-link-alt">&ensp;</i>Get Started with Python</a> <i> - August 2024</i> <br>
         <!--start-->
-        <a href="https://www.coursera.org/account/accomplishments/records/7O43VZUK8WTF" target="_blank"><i class="fas fa-external-link-alt">&ensp;</i>Foundations of Data Science</a> <i> - August 2024</i> <br>
+        <a href="https://www.coursera.org/account/accomplishments/records/7O43VZUK8WTF" target="certificates"><i class="fas fa-external-link-alt">&ensp;</i>Foundations of Data Science</a> <i> - August 2024</i> <br>
       </div>
   </details>
 </blockquote>
@@ -93,7 +93,7 @@ order: 6
     August 2024
     </summary>
     <div>
-      <a href="https://www.freecodecamp.org/certification/duyapat-christony/responsive-web-design" target="_blank"><i class="fas fa-external-link-alt">&ensp;</i>Responsive Web Design</a> <i> - August 2024</i> <br>
+      <a href="https://www.freecodecamp.org/certification/duyapat-christony/responsive-web-design" target="certificates"><i class="fas fa-external-link-alt">&ensp;</i>Responsive Web Design</a> <i> - August 2024</i> <br>
     </div>
   </details>
 </blockquote>
@@ -106,23 +106,23 @@ order: 6
     </summary>
       <div>
         <!--start-->
-        <a href="https://www.coursera.org/account/accomplishments/specialization/NDNZT6S42KL9" target="_blank"><i class="fas fa-external-link-alt">&ensp;</i>Google Data Analytics Professional Certificate</a> <i> - June 2024</i> <br>
+        <a href="https://www.coursera.org/account/accomplishments/specialization/NDNZT6S42KL9" target="certificates"><i class="fas fa-external-link-alt">&ensp;</i>Google Data Analytics Professional Certificate</a> <i> - June 2024</i> <br>
         <!--start-->
-        <a href="https://www.coursera.org/account/accomplishments/records/QPHR4SYN5HVR" target="_blank"><i class="fas fa-external-link-alt">&ensp;</i>Data Analysis with R Programming</a> <i> - June 2024</i> <br>
+        <a href="https://www.coursera.org/account/accomplishments/records/QPHR4SYN5HVR" target="certificates"><i class="fas fa-external-link-alt">&ensp;</i>Data Analysis with R Programming</a> <i> - June 2024</i> <br>
         <!--start-->
-        <a href="https://www.coursera.org/account/accomplishments/records/B839CZMRL9MX" target="_blank"><i class="fas fa-external-link-alt">&ensp;</i>Application of Data Analysis in Business with R Programming</a> <i> - June 2024</i> <br>
+        <a href="https://www.coursera.org/account/accomplishments/records/B839CZMRL9MX" target="certificates"><i class="fas fa-external-link-alt">&ensp;</i>Application of Data Analysis in Business with R Programming</a> <i> - June 2024</i> <br>
         <!--start-->
-        <a href="https://www.coursera.org/account/accomplishments/records/C2ALKV4HPV2P" target="_blank"><i class="fas fa-external-link-alt">&ensp;</i>Share Data Through the Art of Visualization</a> <i> - June 2024</i> <br>
+        <a href="https://www.coursera.org/account/accomplishments/records/C2ALKV4HPV2P" target="certificates"><i class="fas fa-external-link-alt">&ensp;</i>Share Data Through the Art of Visualization</a> <i> - June 2024</i> <br>
         <!--start-->
-        <a href="https://www.coursera.org/account/accomplishments/records/VW64PPDZD85H" target="_blank"><i class="fas fa-external-link-alt">&ensp;</i>Analyze Data to Answer Questions</a> <i> - June 2024</i> <br>
+        <a href="https://www.coursera.org/account/accomplishments/records/VW64PPDZD85H" target="certificates"><i class="fas fa-external-link-alt">&ensp;</i>Analyze Data to Answer Questions</a> <i> - June 2024</i> <br>
         <!--start-->
-        <a href="https://www.coursera.org/account/accomplishments/records/HZXLR3X29GVS" target="_blank"><i class="fas fa-external-link-alt">&ensp;</i>Process Data from Dirty to Clean</a> <i> - June 2024</i> <br>
+        <a href="https://www.coursera.org/account/accomplishments/records/HZXLR3X29GVS" target="certificates"><i class="fas fa-external-link-alt">&ensp;</i>Process Data from Dirty to Clean</a> <i> - June 2024</i> <br>
         <!--start-->
-        <a href="https://www.coursera.org/account/accomplishments/records/5UT3L6EBVEJ6" target="_blank"><i class="fas fa-external-link-alt">&ensp;</i>Prepare Data for Exploration</a> <i> - May 2024</i> <br>
+        <a href="https://www.coursera.org/account/accomplishments/records/5UT3L6EBVEJ6" target="certificates"><i class="fas fa-external-link-alt">&ensp;</i>Prepare Data for Exploration</a> <i> - May 2024</i> <br>
         <!--start-->
-        <a href="https://www.coursera.org/account/accomplishments/records/XD6JGPDYGZJ9" target="_blank"><i class="fas fa-external-link-alt">&ensp;</i>Ask Questions to Make Data-Driven Decisions</a> <i> - May 2024</i> <br>
+        <a href="https://www.coursera.org/account/accomplishments/records/XD6JGPDYGZJ9" target="certificates"><i class="fas fa-external-link-alt">&ensp;</i>Ask Questions to Make Data-Driven Decisions</a> <i> - May 2024</i> <br>
         <!--start-->
-        <a href="https://www.coursera.org/account/accomplishments/records/PSXR8YBBJR8M" target="_blank"><i class="fas fa-external-link-alt">&ensp;</i>Foundations: Data, Data, Everywhere</a> <i> - May 2024</i> <br>
+        <a href="https://www.coursera.org/account/accomplishments/records/PSXR8YBBJR8M" target="certificates"><i class="fas fa-external-link-alt">&ensp;</i>Foundations: Data, Data, Everywhere</a> <i> - May 2024</i> <br>
       </div>
   </details>
 </blockquote>
@@ -149,7 +149,7 @@ order: 6
     2023 | Duyapat, C.G. | Lanote, J.Y. | Homiggop, S.L. | Gamboc, S.B.
     </summary>
     <div>
-      <a href="https://ijmaberjournal.org/index.php/ijmaber/article/view/1314" target="_blank"><i class="fas fa-external-link-alt">&ensp;</i>https://doi.org/10.11594/ijmaber.04.11.10</a>
+      <a href="https://ijmaberjournal.org/index.php/ijmaber/article/view/1314" target="certificates"><i class="fas fa-external-link-alt">&ensp;</i>https://doi.org/10.11594/ijmaber.04.11.10</a>
     </div>
   </details>
 </blockquote>

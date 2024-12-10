@@ -12,7 +12,7 @@ order: 7
 
 > Hello 👋, mga **MATHatag** at **MATHalinong** mag-aaral!
 > 
-> Naisip mo na ba kung saan ka maaaring dalhin ng mga numero, hugis, at equations na pinag-aaralan mo sa math? Guess what 🤔, math isn’t just about solving for x and y! It’s a superpower that can open doors to some of the coolest and most rewarding careers out there. Kung pangarap mo ang magdesign ng mga skyscraper, mag-crack ng secret codes, o gumawa ng mga video games, math is one of the key para magtagumpay sa mga pangarap mo!
+> Naisip mo na ba kung saan ka maaaring dalhin ng mga numero, hugis, at equations na pinag-aaralan mo sa math? Guess what 🤔, math isn’t just about solving for x and y! It’s a superpower that can open doors to some of the coolest and most rewarding careers out there. Kung pangarap mo ang magdesign ng mga skyscraper, mag-crack ng secret codes, o gumawa ng mga video games, math is one of the keys para magtagumpay sa mga pangarap mo!
 > 
 > Kung minsan naiisip mo, “Kailan ko ba gagamitin ang math sa tunay na buhay?” 💁Well, here’s the answer! The possibilities are endless, at ikaw ang magco-compute ng sarili mong future. Check out ang listahan ng mga amazing math-powered careers at tingnan kung alin ang pinaka-inspiring para sa’yo.
 > 
