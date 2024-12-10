@@ -9,7 +9,7 @@ toc: false
 order: 6
 ---
 
-> Sharpen your skills in the four basic operations: addition, subtraction, multiplication, and division. Each section includes 20 randomly generated questions to challenge you. Good luck and enjoy! 🫡
+> Hone your skills in the four fundamental operations: addition, subtraction, multiplication, and division! Each section features 20 randomly generated integer problems to challenge you. Good luck and enjoy! 🫡
 {: .prompt-info }
 
 <div class="d-flex justify-content-center">

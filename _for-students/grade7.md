@@ -7,7 +7,7 @@ image: /assets/thumbnails/math7-student.webp
 thumbnail: /assets/thumbnails/math7-logo.webp
 toc: true
 comments: true
-order: 5
+order: 4
 ---
 {% include lang.html %}
 

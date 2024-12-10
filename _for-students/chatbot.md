@@ -6,7 +6,7 @@ date: 2024-09-22 00:00:00 +0800
 thumbnail: /assets/thumbnails/chatbot.webp
 comments: true
 toc: true
-order: 4
+order: 5
 ---
 
 > Meet your study buddy chatbot, powered by Google Gemini Generative AI! Feel free to ask about any concepts you're struggling with. Just keep in mind that it might occasionally provide inaccurate info, so use it with caution. You can also chat with it using the **floating button at the bottom right of the learning materials**. For further guidance, read the [guidelines](#guidelines-on-the-use-of-the-chatbot) on the use of generative AI below.
