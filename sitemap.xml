@@ -7,45 +7,22 @@ layout: null
     <loc>https://duyapat-christony.github.io</loc>
     <priority>1.0</priority>
   </url>
-  <url>
-    <loc>https://duyapat-christony.github.io/for-students/</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://duyapat-christony.github.io/data-analytics/</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://duyapat-christony.github.io/about/</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://duyapat-christony.github.io/categories/</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://duyapat-christony.github.io/tags/</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://duyapat-christony.github.io/archives/</loc>
-    <priority>0.8</priority>
-  </url>
+
+  {% for tab in site.tabs %}
+    <url>
+      <loc>{{ site.url }}{{ tab.url }}</loc>
+
+      {% if tab.sitemap.priority == null %}
+        <priority>0.8</priority>
+      {% else %}
+        <priority>{{ tab.sitemap.priority }}</priority>
+      {% endif %}
+    </url>
+  {% endfor %}
 
   {% for student in site.for-students %}
     <url>
       <loc>{{ site.url }}{{ student.url }}</loc>
-      {% if student.lastmod == null %}
-        <lastmod>{{ student.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ student.lastmod | date_to_xmlschema }}</lastmod>
-      {% endif %}
-
-      {% if student.sitemap.changefreq == null %}
-        <changefreq>weekly</changefreq>
-      {% else %}
-        <changefreq>{{ student.sitemap.changefreq }}</changefreq>
-      {% endif %}
 
       {% if student.sitemap.priority == null %}
         <priority>0.5</priority>
