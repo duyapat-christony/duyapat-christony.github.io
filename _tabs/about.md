@@ -168,91 +168,75 @@ order: 6
 
 
 <div class="container">
-  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+  <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
 
   <div class="col">
-    <div class="card h-100">
-      <div class="bg-image d-flex" style="height: 100%; overflow: hidden;">
-        <img src="/assets/img/gallery/college_graduation.webp" class="img-fluid" title="College Graduation" alt="Christony Guinanghan Duyapat College Graduation" loading="lazy">
-      </div>
-      <div class="card-footer text-center text-muted" style="font-size: 0.75rem;">
+    <div class="card h-100" style="border-radius: 0;">
+      <img src="/assets/img/gallery/college_graduation.webp" class="img-fluid p-0 m-0" title="College Graduation" alt="Christony Guinanghan Duyapat College Graduation" loading="lazy">
+      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
         College Graduation at Benguet State University
       </div>
     </div>
   </div>
 
   <div class="col">
-    <div class="card h-100">
-      <div class="bg-image d-flex" style="height: 100%; overflow: hidden;">
-        <img src="/assets/img/gallery/itwe.webp" class="img-fluid" title="In Touch with Excellence (DOST-CAR)" alt="Christony Guinanghan Duyapat In Touch with Excellence (DOST-CAR)" loading="lazy">
-      </div>
-      <div class="card-footer text-center text-muted" style="font-size: 0.75rem;">
+    <div class="card h-100" style="border-radius: 0;">
+      <img src="/assets/img/gallery/itwe.webp" class="img-fluid p-0 m-0" title="In Touch with Excellence (DOST-CAR)" alt="Christony Guinanghan Duyapat In Touch with Excellence (DOST-CAR)" loading="lazy">
+      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
         In Touch with Excellence (DOST-CAR)
       </div>
     </div>
   </div>
 
   <div class="col">
-    <div class="card h-100">
-      <div class="bg-image d-flex" style="height: 100%; overflow: hidden;">
-        <img src="/assets/img/gallery/let_passer.webp" class="img-fluid" title="Passing the LET" alt="Christony Guinanghan Duyapat Passing the LET" loading="lazy">
-      </div>
-      <div class="card-footer text-center text-muted" style="font-size: 0.75rem;">
+    <div class="card h-100" style="border-radius: 0;">
+      <img src="/assets/img/gallery/let_passer.webp" class="img-fluid p-0 m-0" title="Passing the LET" alt="Christony Guinanghan Duyapat Passing the LET" loading="lazy">
+      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
         Passing the September 2023 LET
       </div>
     </div>
   </div>
 
   <div class="col">
-    <div class="card h-100">
-      <div class="bg-image d-flex" style="height: 100%; overflow: hidden;">
-        <img src="/assets/img/gallery/let_mar2024.webp" class="img-fluid" title="Lecturer for LET March 2024" alt="Christony Guinanghan Duyapat Lecturer for LET March 2024" loading="lazy">
-      </div>
-      <div class="card-footer text-center text-muted" style="font-size: 0.75rem;">
+    <div class="card h-100" style="border-radius: 0;">
+      <img src="/assets/img/gallery/let_mar2024.webp" class="img-fluid p-0 m-0" title="Lecturer for LET March 2024" alt="Christony Guinanghan Duyapat Lecturer for LET March 2024" loading="lazy">
+      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
         General Mathematics and Math Majorship Lecture
       </div>
     </div>
   </div>
 
   <div class="col">
-    <div class="card h-100">
-      <div class="bg-image d-flex" style="height: 100%; overflow: hidden;">
-        <img src="/assets/img/gallery/oathtaking.webp" class="img-fluid" title="LPT Oathtaking Ceremony (nakikain kina classmate😋)" alt="Christony Guinanghan Duyapat LPT Oathtaking Ceremony (nakikain kina classmate😋)" loading="lazy">
-      </div>
-      <div class="card-footer text-center text-muted" style="font-size: 0.75rem;">
-        LPT Oathtaking Ceremony (nakikain kina classmate😋)
+    <div class="card h-100" style="border-radius: 0;">
+      <img src="/assets/img/gallery/oathtaking.webp" class="img-fluid p-0 m-0" title="LPT Oathtaking Ceremony (nakikain kina classmate😋)" alt="Christony Guinanghan Duyapat LPT Oathtaking Ceremony (nakikain kina classmate😋)" loading="lazy">
+      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
+        LPT Oathtaking Ceremony (nakikain kina classmate)
       </div>
     </div>
   </div>
 
   <div class="col">
-    <div class="card h-100">
-      <div class="bg-image d-flex" style="height: 100%; overflow: hidden;">
-        <img src="/assets/img/gallery/let_sep2024.webp" class="img-fluid" title="Lecturer for LET September 2024" alt="Christony Guinanghan Duyapat Lecturer for LET September 2024" loading="lazy">
-      </div>
-      <div class="card-footer text-center text-muted" style="font-size: 0.75rem;">
+    <div class="card h-100" style="border-radius: 0;">
+      <img src="/assets/img/gallery/let_sep2024.webp" class="img-fluid p-0 m-0" title="Lecturer for LET September 2024" alt="Christony Guinanghan Duyapat Lecturer for LET September 2024" loading="lazy">
+      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
         General Mathematics Lecture
       </div>
     </div>
   </div>
 
   <div class="col">
-    <div class="card h-100">
-      <div class="bg-image d-flex" style="height: 100%; overflow: hidden;">
-        <img src="/assets/img/gallery/slc_solo.webp" class="img-fluid" title="Student Leadership Camp 2024" alt="Christony Guinanghan Duyapat Student Leadership Camp 2024" loading="lazy">
-      </div>
-      <div class="card-footer text-center text-muted" style="font-size: 0.75rem;">
+    <div class="card h-100" style="border-radius: 0;">
+      <img src="/assets/img/gallery/slc_solo.webp" class="img-fluid p-0 m-0" title="Student Leadership Camp 2024" alt="Christony Guinanghan Duyapat Student Leadership Camp 2024" loading="lazy">
+      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
         Student Leadership Camp 2024 (CBPSME Luzon)
       </div>
     </div>
   </div>
 
   <div class="col">
-    <div class="card h-100">
-      <div class="bg-image d-flex" style="height: 100%; overflow: hidden;">
-        <img src="/assets/img/gallery/slc_with_director.webp" class="img-fluid" title="Student Leadership Camp 2024_2" alt="Christony Guinanghan Duyapat Student Leadership Camp 2024_2" loading="lazy">
-      </div>
-      <div class="card-footer text-center text-muted" style="font-size: 0.75rem;">
+    <div class="card h-100" style="border-radius: 0;">
+      <img src="/assets/img/gallery/slc_with_director.webp" class="img-fluid p-0 m-0" title="Student Leadership Camp 2024_2" alt="Christony Guinanghan Duyapat Student Leadership Camp 2024_2" loading="lazy">
+      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
         SLC 2024 with DOST-SEI Director
       </div>
     </div>
