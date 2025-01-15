@@ -228,7 +228,7 @@ order: 6
     <div class="card h-100" style="border-radius: 0;">
       <img src="/assets/img/gallery/slc_solo.webp" class="img-fluid p-0 m-0" title="Student Leadership Camp 2024" alt="Christony Guinanghan Duyapat Student Leadership Camp 2024" loading="lazy">
       <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
-        Student Leadership Camp 2024 (CBPSME Luzon)
+        Scholars Leadership Camp 2024 (CBPSME Luzon)
       </div>
     </div>
   </div>
