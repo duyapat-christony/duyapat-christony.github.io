@@ -24,13 +24,13 @@ order: 6
       When you see me glued to my laptop or phone with my study mode on, I am just watching random reels or memes and pretending they’re very educational. 😏
     </blockquote>
     <blockquote class="prompt-warning">
-      If you start chatting with me, be prepared for a conversation as thrilling as a math lecture—I'm a certified yawn inducer. You’ve been warned! 🥱
+      If you start chatting with me, be prepared for a conversation as thrilling as reading the terms and conditions—I'm a certified yawn inducer. You’ve been warned! 🥱
     </blockquote>
     <blockquote class="prompt-danger">
       If I seem to be zoning out, it's not that I’m ignoring you. I’m just cringing over some embarrassing moments from years ago. Please cut me some slack! 🫣
     </blockquote>
     <blockquote class="prompt-danger">
-      If you’re hoping for wild adventures, you might need to lower your expectations. I’m just a regular boring guy. 😴
+      If you’re hoping for wild adventures, you might need to lower your expectations. I’m just a regular boring person. 😴
     </blockquote>
 </details>
 </p>
