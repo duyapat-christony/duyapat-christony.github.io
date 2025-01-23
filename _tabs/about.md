@@ -241,6 +241,15 @@ order: 6
       </div>
     </div>
   </div>
+
+  <div class="col">
+    <div class="card h-100" style="border-radius: 0;">
+      <img src="/assets/img/gallery/let_mar2025.webp" class="img-fluid p-0 m-0" title="Lecturer for LET March 2025" alt="Christony Guinanghan Duyapat Lecturer for LET March 2025" loading="lazy">
+      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
+        General Mathematics Lecture
+      </div>
+    </div>
+  </div>
     
   </div>
 </div>
