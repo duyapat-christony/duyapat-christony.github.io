@@ -9,7 +9,6 @@ toc: true
 comments: true
 order: 4
 ---
-{% include lang.html %}
 
 <h2 id="grade-level-standards">Grade Level Standards</h2>
 
