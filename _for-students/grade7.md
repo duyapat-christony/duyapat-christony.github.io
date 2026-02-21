@@ -51,7 +51,7 @@ These learning materials feature engaging illustrated reading resources and inte
             <div class="card-body d-flex flex-column">
               <h4 data-toc-skip class="card-title my-2 mt-md-0">{{ post.title }}</h4>
               <div class="card-text content mt-0 mb-3 flex-grow-1"> <!-- Added flex-grow-1 to allow content to stretch -->
-
+                <p>{% include post-summary.html %}</p>
               </div>
             </div>
           </a>
@@ -89,7 +89,7 @@ These learning materials feature engaging illustrated reading resources and inte
             <div class="card-body d-flex flex-column">
               <h4 data-toc-skip class="card-title my-2 mt-md-0">{{ post.title }}</h4>
               <div class="card-text content mt-0 mb-3 flex-grow-1"> <!-- Added flex-grow-1 to allow content to stretch -->
-
+                <p>{% include post-summary.html %}</p>
               </div>
             </div>
           </a>
@@ -128,7 +128,7 @@ These learning materials feature engaging illustrated reading resources and inte
             <div class="card-body d-flex flex-column">
               <h4 data-toc-skip class="card-title my-2 mt-md-0">{{ post.title }}</h4>
               <div class="card-text content mt-0 mb-3 flex-grow-1"> <!-- Added flex-grow-1 to allow content to stretch -->
-
+                <p>{% include post-summary.html %}</p>
               </div>
             </div>
           </a>
@@ -166,7 +166,7 @@ These learning materials feature engaging illustrated reading resources and inte
             <div class="card-body d-flex flex-column">
               <h4 data-toc-skip class="card-title my-2 mt-md-0">{{ post.title }}</h4>
               <div class="card-text content mt-0 mb-3 flex-grow-1"> <!-- Added flex-grow-1 to allow content to stretch -->
-
+                <p>{% include post-summary.html %}</p>
               </div>
             </div>
           </a>
