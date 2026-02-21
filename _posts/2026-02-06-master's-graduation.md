@@ -22,7 +22,7 @@ As the Class Valedictorian, I had the honor of delivering our commencement addre
 <figure>
   <a
     href="https://www.facebook.com/share/p/18JKzyvpvT/"
-    style="display: block; width: 100%; padding-top: 95%; background: url('/assets/img/fb-master-graduation.webp') no-repeat center center; background-size: contain; text-decoration: none; border: none; border-radius: 0.5rem;"
+    style="display: block; width: 100%; padding-top: 98%; background: url('/assets/img/fb-master-graduation.webp') no-repeat center center; background-size: contain; text-decoration: none; border: none; border-radius: 0.5rem;"
     target="_blank"
   ></a>
 </figure>
