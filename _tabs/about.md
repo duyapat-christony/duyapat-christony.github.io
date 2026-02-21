@@ -41,7 +41,7 @@ order: 6
 >
   **Master of Science in Teaching - Mathematics** <br>
   Saint Mary's University <br> 
-  2024 - present 
+  2024 - 2026 
   <hr>
 >
   **Bachelor of Secondary Education - Mathematics** <br>
@@ -247,6 +247,15 @@ order: 6
       <img src="/assets/img/gallery/let_mar2025.webp" class="img-fluid p-0 m-0" title="Lecturer for LET March 2025" alt="Christony Guinanghan Duyapat Lecturer for LET March 2025" loading="lazy">
       <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
         General Mathematics Lecture
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100" style="border-radius: 0;">
+      <img src="/assets/img/gallery/master_graduation.webp" class="img-fluid p-0 m-0" title="Master's Degree Graduation" alt="Christony Guinanghan Duyapat Master's Degree Graduation" loading="lazy">
+      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
+        MST-Mathematics Graduation
       </div>
     </div>
   </div>
