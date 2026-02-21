@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Grade 7 Learning Materials
 subtitle: Access the learning materials for Mathematics 7 under the MATATAG Curriculum.
 date: 2024-09-14 00:00:00 +0800
@@ -9,6 +9,7 @@ toc: true
 comments: true
 order: 4
 ---
+{% include lang.html %}
 
 <h2 id="grade-level-standards">Grade Level Standards</h2>
 
@@ -50,7 +51,7 @@ These learning materials feature engaging illustrated reading resources and inte
             <div class="card-body d-flex flex-column">
               <h4 data-toc-skip class="card-title my-2 mt-md-0">{{ post.title }}</h4>
               <div class="card-text content mt-0 mb-3 flex-grow-1"> <!-- Added flex-grow-1 to allow content to stretch -->
-                <p>{% include post-description.html %}</p>
+<!--             <p>{% include post-description.html %}</p> -->
               </div>
             </div>
           </a>
@@ -88,7 +89,7 @@ These learning materials feature engaging illustrated reading resources and inte
             <div class="card-body d-flex flex-column">
               <h4 data-toc-skip class="card-title my-2 mt-md-0">{{ post.title }}</h4>
               <div class="card-text content mt-0 mb-3 flex-grow-1"> <!-- Added flex-grow-1 to allow content to stretch -->
-                <p>{% include post-description.html %}</p>
+<!--             <p>{% include post-description.html %}</p> -->
               </div>
             </div>
           </a>
@@ -127,7 +128,7 @@ These learning materials feature engaging illustrated reading resources and inte
             <div class="card-body d-flex flex-column">
               <h4 data-toc-skip class="card-title my-2 mt-md-0">{{ post.title }}</h4>
               <div class="card-text content mt-0 mb-3 flex-grow-1"> <!-- Added flex-grow-1 to allow content to stretch -->
-                <p>{% include post-description.html %}</p>
+<!--             <p>{% include post-description.html %}</p> -->
               </div>
             </div>
           </a>
@@ -165,7 +166,7 @@ These learning materials feature engaging illustrated reading resources and inte
             <div class="card-body d-flex flex-column">
               <h4 data-toc-skip class="card-title my-2 mt-md-0">{{ post.title }}</h4>
               <div class="card-text content mt-0 mb-3 flex-grow-1"> <!-- Added flex-grow-1 to allow content to stretch -->
-                <p>{% include post-description.html %}</p>
+ <!--             <p>{% include post-description.html %}</p> -->
               </div>
             </div>
           </a>
