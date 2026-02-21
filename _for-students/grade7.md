@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Grade 7 Learning Materials
 subtitle: Access the learning materials for Mathematics 7 under the MATATAG Curriculum.
 date: 2024-09-14 00:00:00 +0800
