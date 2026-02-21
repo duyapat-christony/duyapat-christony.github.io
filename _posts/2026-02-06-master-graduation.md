@@ -1,5 +1,5 @@
 ---
-title: Ode to Mission and Excellence — Reflections on my Master’s Graduation
+title: "Ode to Mission and Excellence: Reflections on my Master’s Graduation"
 date: 2026-02-06 00:00:00 +0800
 categories: [Milestones]
 tags: [graduation]
