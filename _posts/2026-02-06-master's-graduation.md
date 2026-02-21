@@ -15,14 +15,14 @@ On February 6, 2026, I officially closed another chapter of my life. Graduating 
   DOST-SEI CBPSME Scholar
   {: .prompt-info }
 
-As the Class Valedictorian, I had the honor of delivering our commencement address, "Ode to Mission and Excellence." You can watch the full speech here:
+As the Class Valedictorian of the 99th Commencement Excercises at Saint Mary's University, I had the honor of delivering our commencement address, "Ode to Mission and Excellence." You can watch the full speech here:
 
 {% include embed/youtube.html id='HwS3MBIcsac' %}
 
 <figure>
   <a
     href="https://www.facebook.com/share/p/18JKzyvpvT/"
-    style="display: block; width: 100%; padding-top: 92%; background: url('/assets/img/fb-master-graduation.webp') no-repeat center center; background-size: contain; text-decoration: none; border: none; border-radius: 0.5rem;"
+    style="display: block; width: 100%; padding-top: 92%; background: url('/assets/img/fb-master-graduation.webp') no-repeat center center; background-size: contain; text-decoration: none; border: none; border-radius: 0.75rem;"
     target="_blank"
   ></a>
 </figure>
