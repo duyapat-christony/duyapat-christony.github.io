@@ -1,10 +1,9 @@
 ---
-title: "Ode to Mission and Excellence: Reflections on my Master’s Graduation"
+title: Ode to Mission and Excellence — Reflections on my Master’s Graduation
 date: 2026-02-06 00:00:00 +0800
 categories: [Milestones]
 tags: [graduation]
 image: /assets/thumbnails/master-grad.webp
-comments: true
 ---
 
 On February 6, 2026, I officially closed another chapter of my life. Graduating with a Master’s degree is a personal milestone, but more importantly, it is a shared victory for everyone who supported the journey. 
