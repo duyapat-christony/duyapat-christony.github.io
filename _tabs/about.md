@@ -158,21 +158,14 @@ order: 6
 > **GALLERY**
 {: .prompt-info }
 
-<!--
-![Christony Guinanghan Duyapat College Graduation](/assets/img/gallery/1.webp "College Graduation"){: width="100" height="100" .left }
-![Christony Guinanghan Duyapat Passing the LET](/assets/img/gallery/2.webp "Passing the LET"){: width="100" height="100" .left }
-![Christony Guinanghan Duyapat Lecturer for LET March 2024](/assets/img/gallery/3.webp "Lecturer for LET March 2024"){: width="100" height="100" .left }
-![Christony Guinanghan Duyapat LPT Oathtaking](/assets/img/gallery/4.webp "LPT Oath Taking Ceremony (nakikain kina classmate😋)"){: width="100" height="100" .left }
-![Christony Guinanghan Duyapat Lecturer for LET September 2024](/assets/img/gallery/5.webp "Lecturer for LET September 2024"){: width="100" height="100" .left }
--->
-
-
 <div class="container">
   <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
 
   <div class="col">
     <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/college_graduation.webp" class="img-fluid p-0 m-0" title="College Graduation" alt="Christony Guinanghan Duyapat College Graduation" loading="lazy">
+      <img src="/assets/img/gallery/college_graduation.webp" class="img-fluid p-0 m-0" 
+        title="College Graduation" 
+        alt="Christony Guinanghan Duyapat and his mother during the Benguet State University commencement exercises, where he graduated Magna Cum Laude with a Bachelor of Secondary Education Major in Mathematics." loading="lazy">
       <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
         College Graduation at Benguet State University
       </div>
@@ -181,7 +174,9 @@ order: 6
 
   <div class="col">
     <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/itwe.webp" class="img-fluid p-0 m-0" title="In Touch with Excellence (DOST-CAR)" alt="Christony Guinanghan Duyapat In Touch with Excellence (DOST-CAR)" loading="lazy">
+      <img src="/assets/img/gallery/itwe.webp" class="img-fluid p-0 m-0" 
+        title="In Touch with Excellence (DOST-CAR)" 
+        alt="Christony Guinanghan Duyapat receiving an award during the In Touch with Excellence recognition ceremony by DOST-CAR at the Newtown Plaza Hotel, Baguio City." loading="lazy">
       <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
         In Touch with Excellence (DOST-CAR)
       </div>
@@ -190,7 +185,9 @@ order: 6
 
   <div class="col">
     <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/let_passer.webp" class="img-fluid p-0 m-0" title="Passing the LET" alt="Christony Guinanghan Duyapat Passing the LET" loading="lazy">
+      <img src="/assets/img/gallery/let_passer.webp" class="img-fluid p-0 m-0" 
+        title="Passing the LET" 
+        alt="Christony Guinanghan Duyapat Passing the Licensure Examination for Teachers September 2023" loading="lazy">
       <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
         Passing the September 2023 LET
       </div>
@@ -199,7 +196,9 @@ order: 6
 
   <div class="col">
     <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/let_mar2024.webp" class="img-fluid p-0 m-0" title="Lecturer for LET March 2024" alt="Christony Guinanghan Duyapat Lecturer for LET March 2024" loading="lazy">
+      <img src="/assets/img/gallery/let_mar2024.webp" class="img-fluid p-0 m-0" 
+        title="Lecturer for LET March 2024" 
+        alt="Christony Guinanghan Duyapat as Review Lecturer for the Licensure Examination for Teachers March 2024" loading="lazy">
       <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
         General Mathematics and Math Majorship Lecture
       </div>
@@ -208,7 +207,9 @@ order: 6
 
   <div class="col">
     <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/oathtaking.webp" class="img-fluid p-0 m-0" title="LPT Oathtaking Ceremony (nakikain kina classmate😋)" alt="Christony Guinanghan Duyapat LPT Oathtaking Ceremony (nakikain kina classmate😋)" loading="lazy">
+      <img src="/assets/img/gallery/oathtaking.webp" class="img-fluid p-0 m-0" 
+        title="LPT Oathtaking Ceremony (nakikain kina classmate😋)" 
+        alt="Newly licensed teacher Christony Guinanghan Duyapat holding take-out from a classmate's thanksgiving party at the Lion’s Head, Kennon Road, Baguio City." loading="lazy">
       <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
         LPT Oathtaking Ceremony (nakikain kina classmate)
       </div>
@@ -217,7 +218,9 @@ order: 6
 
   <div class="col">
     <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/let_sep2024.webp" class="img-fluid p-0 m-0" title="Lecturer for LET September 2024" alt="Christony Guinanghan Duyapat Lecturer for LET September 2024" loading="lazy">
+      <img src="/assets/img/gallery/let_sep2024.webp" class="img-fluid p-0 m-0" 
+        title="Lecturer for LET September 2024" 
+        alt="Christony Guinanghan Duyapat as Review Lecturer for the Licensure Examination for Teachers September 2024" loading="lazy">
       <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
         General Mathematics Lecture
       </div>
@@ -226,7 +229,9 @@ order: 6
 
   <div class="col">
     <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/slc_solo.webp" class="img-fluid p-0 m-0" title="Student Leadership Camp 2024" alt="Christony Guinanghan Duyapat Student Leadership Camp 2024" loading="lazy">
+      <img src="/assets/img/gallery/slc_solo.webp" class="img-fluid p-0 m-0" 
+        title="Student Leadership Camp 2024" 
+        alt="Christony Guinanghan Duyapat attending the 2024 Student Leadership Camp by the Department of Science and Technology - Science Education Institude at Hilton Clark Sun Valley Resort, Pampanga." loading="lazy">
       <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
         Scholars Leadership Camp 2024 (CBPSME Luzon)
       </div>
@@ -235,7 +240,9 @@ order: 6
 
   <div class="col">
     <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/slc_with_director.webp" class="img-fluid p-0 m-0" title="Student Leadership Camp 2024_2" alt="Christony Guinanghan Duyapat Student Leadership Camp 2024_2" loading="lazy">
+      <img src="/assets/img/gallery/slc_with_director.webp" class="img-fluid p-0 m-0" 
+        title="Student Leadership Camp 2024_2" 
+        alt="Christony Guinanghan Duyapat posing with DOST-SEI Director Dr. Jayeel S. Cornelio during the 2024 Student Leadership Camp at Hilton Clark Sun Valley Resort, Pampanga." loading="lazy">
       <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
         SLC 2024 with DOST-SEI Director
       </div>
@@ -244,7 +251,9 @@ order: 6
 
   <div class="col">
     <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/let_mar2025.webp" class="img-fluid p-0 m-0" title="Lecturer for LET March 2025" alt="Christony Guinanghan Duyapat Lecturer for LET March 2025" loading="lazy">
+      <img src="/assets/img/gallery/let_mar2025.webp" class="img-fluid p-0 m-0" 
+        title="Lecturer for LET March 2025" 
+        alt="Christony Guinanghan Duyapat as Review Lecturer for the Licensure Examination for Teachers March 2025" loading="lazy">
       <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
         General Mathematics Lecture
       </div>
@@ -253,7 +262,9 @@ order: 6
 
   <div class="col">
     <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/master_graduation.webp" class="img-fluid p-0 m-0" title="Master's Degree Graduation" alt="Christony Guinanghan Duyapat Master's Degree Graduation" loading="lazy">
+      <img src="/assets/img/gallery/master_graduation.webp" class="img-fluid p-0 m-0" 
+        title="Master's Degree Graduation" 
+        alt="Christony Guinanghan Duyapat in academic regalia during the 99th Commencement Exercises at Saint Mary's University, graduating Magna Cum Laude and as Class Valedictorian for his Master of Science in Teaching Mathematics." loading="lazy">
       <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
         MST-Mathematics Graduation
       </div>
