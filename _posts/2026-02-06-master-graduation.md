@@ -19,6 +19,8 @@ As the Class Valedictorian of the 99th Commencement Excercises at Saint Mary's U
 
 {% include embed/youtube.html id='HwS3MBIcsac' %}
 
+{% include embed/youtube.html id='03VeDlB-30o' %}
+
 <figure>
   <a
     href="https://www.facebook.com/share/p/18JKzyvpvT/"
