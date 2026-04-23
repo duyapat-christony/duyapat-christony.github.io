@@ -63,6 +63,54 @@ order: 6
 
 <blockquote>
   <details>
+    <summary><strong>Google Certified Educator Level 2</strong><br>
+    April 2026
+    </summary>
+    <div>
+      <a href="https://edu.google.accredible.com/689318b8-afc9-4842-b53f-9166225de1a9" target="certificates"><i class="fas fa-external-link-alt">&ensp;</i>View Certification</a> <i> - Valid until April 21, 2029</i> <br>
+    </div>
+  </details>
+</blockquote>
+<hr>
+
+<blockquote>
+  <details>
+    <summary><strong>Google Certified Educator Level 1</strong><br>
+    April 2026
+    </summary>
+    <div>
+      <a href="https://edu.google.accredible.com/a1d901a4-d13d-4f21-918c-32e52def2ae3" target="certificates"><i class="fas fa-external-link-alt">&ensp;</i>View Certification</a> <i> - Valid until April 22, 2029</i> <br>
+    </div>
+  </details>
+</blockquote>
+<hr>
+
+<blockquote>
+  <details>
+    <summary><strong>Gemini Certified Educator</strong><br>
+    April 2026
+    </summary>
+    <div>
+      <a href="https://edu.google.accredible.com/3d8b3fce-91d7-48dd-94fb-0394b251c109" target="certificates"><i class="fas fa-external-link-alt">&ensp;</i>View Certification</a> <i> - Valid until April 21, 2029</i> <br>
+    </div>
+  </details>
+</blockquote>
+<hr>
+
+<blockquote>
+  <details>
+    <summary><strong>Gemini Certified Faculty</strong><br>
+    April 2026
+    </summary>
+    <div>
+      <a href="https://edu.google.accredible.com/68275016-a21a-40ad-a255-8bdabf22260b" target="certificates"><i class="fas fa-external-link-alt">&ensp;</i>View Certification</a> <i> - Valid until April 22, 2029</i> <br>
+    </div>
+  </details>
+</blockquote>
+<hr>
+
+<blockquote>
+  <details>
     <summary><strong>Google Advanced Data Analytics Professional Certificate</strong><br>
     November 2024
     </summary>
