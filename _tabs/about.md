@@ -222,6 +222,17 @@ order: 6
 
   <div class="col">
     <div class="card h-100" style="border-radius: 0;">
+      <img src="/assets/img/gallery/bsed_math.webp" class="img-fluid p-0 m-0" 
+        title="BSEd Math Graduation" 
+        alt="Christony Guinanghan Duyapat college graduation picture" loading="lazy">
+      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
+        Bachelor of Secondary Education - Mathematics
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100" style="border-radius: 0;">
       <img src="/assets/img/gallery/itwe.webp" class="img-fluid p-0 m-0" 
         title="In Touch with Excellence (DOST-CAR)" 
         alt="Christony Guinanghan Duyapat receiving an award during the In Touch with Excellence recognition ceremony by DOST-CAR at the Newtown Plaza Hotel, Baguio City." loading="lazy">
@@ -314,7 +325,40 @@ order: 6
         title="Master's Degree Graduation" 
         alt="Christony Guinanghan Duyapat in academic regalia during the 99th Commencement Exercises at Saint Mary's University, graduating Magna Cum Laude and as Class Valedictorian for his Master of Science in Teaching Mathematics." loading="lazy">
       <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
-        MST-Mathematics Graduation
+        Master's Graduation at Saint Mary's University
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100" style="border-radius: 0;">
+      <img src="/assets/img/gallery/mst_math.webp" class="img-fluid p-0 m-0" 
+        title="MST-Math Graduation" 
+        alt="Christony Duyapat master's graduation" loading="lazy">
+      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
+        Master of Science in Teaching Mathematics
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100" style="border-radius: 0;">
+      <img src="/assets/img/gallery/tabayoc.webp" class="img-fluid p-0 m-0" 
+        title="Mt. Tabayoc" 
+        alt="Christony Duyapat hiking at Mt. Tabayoc which is 2,842 meters above sea level" loading="lazy">
+      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
+        Conquering Mt. Tabayoc
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100" style="border-radius: 0;">
+      <img src="/assets/img/gallery/peatland.webp" class="img-fluid p-0 m-0" 
+        title="Gaday Peatland" 
+        alt="Christony Duyapat hiking at Gaday Peatland in Tinoc, Ifugao" loading="lazy">
+      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
+        Nature Trip at Gaday Peatland
       </div>
     </div>
   </div>
