@@ -49,4 +49,4 @@ Above all, thank you **Lord** for Your grace that sustained me when the finish l
 Sincerely Yours,
 
 **Christony Guinanghan Duyapat** <br>
-*Master of Science in Teaching Mathematics*
+*Master of Science in Teaching Mathematics* 
