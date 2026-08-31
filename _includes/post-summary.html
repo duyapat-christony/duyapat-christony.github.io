@@ -1,0 +1,9 @@
+{%- comment -%} Chirpy Post Summary Handler {%- endcomment -%}
+{%- if post.description -%}{{ post.description }}{%- else -%}
+  {%- assign content = post.content -%}
+  {%- if content contains '<td class="rouge-gutter gl">' -%}
+    {%- assign segments = content | split: '<td class="rouge-gutter gl">' -%}
+    {%- assign content = "" -%}{%- for segment in segments -%}{%- if forloop.first -%}{%- assign content = content | append: segment -%}{%- else -%}{%- assign sub_segments = segment | split: '</td>' -%}{%- for sub_segment in sub_segments -%}{%- unless forloop.first -%}{%- assign content = content | append: sub_segment -%}{%- endunless -%}{%- endfor -%}{%- endif -%}{%- endfor -%}
+  {%- endif -%}
+  {{ content | strip_html | strip_newlines | truncate: 200 }}
+{%- endif -%}
