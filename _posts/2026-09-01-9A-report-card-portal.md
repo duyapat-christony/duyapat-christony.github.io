@@ -19,7 +19,7 @@ For your convenience, the portal also allows you to download the report card as 
 <div style="text-align: center; margin: 30px auto; width: 100%;">
   
   <!-- Style-customized link button matching the portal blue theme -->
-  <a href="https://script.google.com/macros/s/AKfycbxZgLmXA5KpNyqs6fyhdzImQahNiGRrNtGeLga-udwfIifz2ekctnq812wtqFDOdH0A/exec" 
+  <a href="https://script.google.com/macros/s/AKfycbxvvw2u5HGDgUeAi4qFoz1Je3zjm3bI8MbLIrdcwbqy0fqlcGpbCcOwvVl7kz-0tDKegQ/exec" 
      target="_blank" class="btn btn-primary" style="font-weight: bold;">
      Access 9A Report Card Portal
   </a>
