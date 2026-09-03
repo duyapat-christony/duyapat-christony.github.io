@@ -7,7 +7,7 @@ image: /assets/thumbnails/9A-report-card-portal.webp
 pin: true
 ---
 
-To provide convenient access to the SF9 (Learner's Performance Report), I have created a dedicated [online portal](https://script.google.com/a/macros/deped.gov.ph/s/AKfycbwq7advr5e8Fdw6DVgcu6m7C4TI-nEBQWin88az6W8cBKbZna4b0eS0AWfRKkCdZ1oLCQ/exec) for students and parents. Through this secure platform, you can view a comprehensive breakdown of the learner's progress, which includes:
+To provide convenient access to the SF9 (Learner's Performance Report), I have created a dedicated [online portal](https://script.google.com/a/macros/deped.gov.ph/s/AKfycbwlmDqwjINMMyqPoY8i-dd6zSpeaaqGTgEwQZEOEKKPnCDQO2VTjK31rcDGipuCnfaSVA/exec) for students and parents. Through this secure platform, you can view a comprehensive breakdown of the learner's progress, which includes:
 
 * **Term Grades:** Monitor academic performance across all learning areas.
 
@@ -55,7 +55,7 @@ For your convenience, the portal also allows you to download the report card as 
 <div class="iframe-wrapper">
   <iframe
     class="responsive-iframe"
-    src="https://script.google.com/macros/s/AKfycbwq7advr5e8Fdw6DVgcu6m7C4TI-nEBQWin88az6W8cBKbZna4b0eS0AWfRKkCdZ1oLCQ/exec"
+    src="https://script.google.com/macros/s/AKfycbwlmDqwjINMMyqPoY8i-dd6zSpeaaqGTgEwQZEOEKKPnCDQO2VTjK31rcDGipuCnfaSVA/exec"
     title="Math 9 Grade Portal"
     loading="lazy"
     allowfullscreen>
