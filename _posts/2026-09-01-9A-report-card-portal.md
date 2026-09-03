@@ -55,7 +55,7 @@ For your convenience, the portal also allows you to download the report card as 
 <div class="iframe-wrapper">
   <iframe
     class="responsive-iframe"
-    src="https://script.google.com/macros/s/AKfycbwlmDqwjINMMyqPoY8i-dd6zSpeaaqGTgEwQZEOEKKPnCDQO2VTjK31rcDGipuCnfaSVA/exec"
+    src="https://script.google.com/a/macros/deped.gov.ph/s/AKfycbwlmDqwjINMMyqPoY8i-dd6zSpeaaqGTgEwQZEOEKKPnCDQO2VTjK31rcDGipuCnfaSVA/exec"
     title="Math 9 Grade Portal"
     loading="lazy"
     allowfullscreen>
