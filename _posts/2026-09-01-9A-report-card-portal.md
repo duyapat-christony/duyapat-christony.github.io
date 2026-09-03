@@ -7,7 +7,7 @@ image: /assets/thumbnails/9A-report-card-portal.webp
 pin: true
 ---
 
-To provide convenient access to the SF9 (Learner's Performance Report), I have created a dedicated [online portal](https://script.google.com/macros/s/AKfycbxvvw2u5HGDgUeAi4qFoz1Je3zjm3bI8MbLIrdcwbqy0fqlcGpbCcOwvVl7kz-0tDKegQ/exec) for students and parents. Through this secure platform, you can view a comprehensive breakdown of the learner's progress, which includes:
+To provide convenient access to the SF9 (Learner's Performance Report), I have created a dedicated [online portal](https://script.google.com/a/macros/deped.gov.ph/s/AKfycbwq7advr5e8Fdw6DVgcu6m7C4TI-nEBQWin88az6W8cBKbZna4b0eS0AWfRKkCdZ1oLCQ/exec) for students and parents. Through this secure platform, you can view a comprehensive breakdown of the learner's progress, which includes:
 
 * **Term Grades:** Monitor academic performance across all learning areas.
 
@@ -19,7 +19,7 @@ For your convenience, the portal also allows you to download the report card as 
 
 <!--
 <div style="text-align: center; margin: 30px auto; width: 100%;">
-  <a href="https://script.google.com/macros/s/AKfycbxvvw2u5HGDgUeAi4qFoz1Je3zjm3bI8MbLIrdcwbqy0fqlcGpbCcOwvVl7kz-0tDKegQ/exec" 
+  <a href="https://script.google.com/macros/s/AKfycbwq7advr5e8Fdw6DVgcu6m7C4TI-nEBQWin88az6W8cBKbZna4b0eS0AWfRKkCdZ1oLCQ/exec" 
      target="_blank" class="btn btn-primary" style="font-weight: bold;">
      Access 9A Report Card Portal
   </a>
@@ -28,7 +28,7 @@ For your convenience, the portal also allows you to download the report card as 
 
 <style>
   .iframe-wrapper {
-    width: 650px;
+    width: 750px;
     max-width: 100%;
     margin: 0 auto;
   }
@@ -55,7 +55,7 @@ For your convenience, the portal also allows you to download the report card as 
 <div class="iframe-wrapper">
   <iframe
     class="responsive-iframe"
-    src="https://script.google.com/macros/s/AKfycbxvvw2u5HGDgUeAi4qFoz1Je3zjm3bI8MbLIrdcwbqy0fqlcGpbCcOwvVl7kz-0tDKegQ/exec"
+    src="https://script.google.com/macros/s/AKfycbwq7advr5e8Fdw6DVgcu6m7C4TI-nEBQWin88az6W8cBKbZna4b0eS0AWfRKkCdZ1oLCQ/exec"
     title="Math 9 Grade Portal"
     loading="lazy"
     allowfullscreen>
