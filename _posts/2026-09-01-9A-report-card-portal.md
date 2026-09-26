@@ -7,7 +7,7 @@ image: /assets/thumbnails/9A-report-card-portal.webp
 pin: true
 ---
 
-To provide convenient access to the SF9 (Learner's Performance Report), I have created a dedicated [online portal](https://script.google.com/macros/s/AKfycbwpOpSpgf7GpIe4gPtLH-C3p_3lfDDHsZX9QRAsH6sIK1D0M9_OregAtvWJnGG1OdOl/exec) for students and parents. Through this secure platform, you can view a comprehensive breakdown of the learner's progress, which includes:
+To provide convenient access to the SF9 (Learner's Performance Report), I have created a dedicated [online portal](https://sites.google.com/view/math-9-learning-hub/my-grades/sf9-grade-9a) for students and parents. Through this secure platform, you can view a comprehensive breakdown of the learner's progress, which includes:
 
 * **Term Grades:** Monitor academic performance across all learning areas.
 
