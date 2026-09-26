@@ -1,5 +1,5 @@
 ---
-title: Math 9 Term 1 Grade Portal
+title: Math 9 Term Grade Portal
 date: 2026-08-31 00:00:00 +0800
 categories: [Tinoc NHS]
 tags: [grade9, math]
