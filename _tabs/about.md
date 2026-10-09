@@ -362,6 +362,39 @@ order: 6
       </div>
     </div>
   </div>
-    
+
+  <div class="col">
+    <div class="card h-100" style="border-radius: 0;">
+      <img src="/assets/img/gallery/nrcsme_1.webp" class="img-fluid p-0 m-0" 
+        title="12th National Research Conference in Science and Mathematics Education (NRCSME)" 
+        alt="Christony Duyapat presenting his research during the 12th National Research Conference in Science and Mathematics Education (NRCSME) held at Grand Xing Imperial Hotel, Iloilo City" loading="lazy">
+      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
+        Presenter during the 12th NRCSME
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100" style="border-radius: 0;">
+      <img src="/assets/img/gallery/nrcsme_2.webp" class="img-fluid p-0 m-0" 
+        title="12th National Research Conference in Science and Mathematics Education (NRCSME)" 
+        alt="Christony Duyapat presenting his research during the 12th National Research Conference in Science and Mathematics Education (NRCSME) held at Grand Xing Imperial Hotel, Iloilo City" loading="lazy">
+      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
+        Research Presenter
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100" style="border-radius: 0;">
+      <img src="/assets/img/gallery/nrcsme_3.webp" class="img-fluid p-0 m-0" 
+        title="12th National Research Conference in Science and Mathematics Education (NRCSME)" 
+        alt="Christony Duyapat listening to the plenary speakers during the 12th National Research Conference in Science and Mathematics Education (NRCSME) held at Grand Xing Imperial Hotel, Iloilo City" loading="lazy">
+      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
+        Listening to the Plenary Speakers
+      </div>
+    </div>
+  </div>
+
   </div>
 </div>
