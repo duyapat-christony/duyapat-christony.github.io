@@ -400,7 +400,18 @@ order: 6
 </div>
 
 <style>
-  .post-content img {
+/* Default spacing for normal article images */
+.post-content img {
   margin-top: 0.5rem;
+}
+
+/* Gallery images must touch the card border */
+.post-content .gallery-grid .card > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 !important;
+  padding: 0 !important;
+  border-radius: 0;
 }
 </style>
