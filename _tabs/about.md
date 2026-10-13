@@ -398,3 +398,9 @@ order: 6
 
   </div>
 </div>
+
+<style>
+  .post-content img {
+  margin-top: 0.5rem;
+}
+</style>
