@@ -232,10 +232,10 @@ order: 6
   min-width: 0;
   margin: 0 !important;
   padding: 0 !important;
-  overflow: hidden;
-  border: 1px solid var(--main-border-color, #d7d7d7);
+  overflow: visible;
+  border: 0 !important;
   border-radius: 0;
-  background: var(--card-bg, #fff);
+  background: transparent;
 }
 
 /* This selector intentionally overrides article-image theme rules. */
@@ -265,6 +265,9 @@ order: 6
   min-height: 3.2rem;
   margin: 0 !important;
   padding: 0.35rem 0.5rem !important;
+  border: 1px solid var(--main-border-color, #d7d7d7) !important;
+  border-top: 0 !important;
+  background: var(--card-bg, #fff);
   color: var(--text-muted-color, #6c757d);
   font-size: 0.8rem;
   line-height: 1.15;
