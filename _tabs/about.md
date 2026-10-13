@@ -203,215 +203,229 @@ order: 6
 </blockquote>
 -->
 
+<style>
+/* Responsive gallery without Bootstrap cards. */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 992px) {
+  .gallery {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.gallery-item {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden;
+  border: 1px solid var(--main-border-color, #d7d7d7);
+  border-radius: 0;
+  background: var(--card-bg, #fff);
+}
+
+/* This selector intentionally overrides article-image theme rules. */
+#main-wrapper .gallery .gallery-image,
+.post-content .gallery .gallery-image,
+.gallery .gallery-image {
+  display: block !important;
+  width: 100% !important;
+  min-width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  vertical-align: top !important;
+  object-fit: cover;
+}
+
+.gallery-caption {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3.2rem;
+  margin: 0 !important;
+  padding: 0.35rem 0.5rem !important;
+  color: var(--text-muted-color, #6c757d);
+  font-size: 0.8rem;
+  line-height: 1.15;
+  text-align: center;
+}
+</style>
+
 > **GALLERY**
 {: .prompt-info }
 
-<div class="container">
-  <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
+<div class="gallery" markdown="0">
+  <figure class="gallery-item">
+    <img class="gallery-image"
+         src="/assets/img/gallery/college_graduation.webp"
+         title="College Graduation"
+         alt="Christony Guinanghan Duyapat and his mother during the Benguet State University commencement exercises, where he graduated Magna Cum Laude with a Bachelor of Secondary Education Major in Mathematics."
+         loading="lazy">
+    <figcaption class="gallery-caption">College Graduation at Benguet State University</figcaption>
+  </figure>
 
-  <div class="col">
-    <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/college_graduation.webp" class="img-fluid p-0 m-0" 
-        title="College Graduation" 
-        alt="Christony Guinanghan Duyapat and his mother during the Benguet State University commencement exercises, where he graduated Magna Cum Laude with a Bachelor of Secondary Education Major in Mathematics." loading="lazy">
-      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
-        College Graduation at Benguet State University
-      </div>
-    </div>
-  </div>
+  <figure class="gallery-item">
+    <img class="gallery-image"
+         src="/assets/img/gallery/bsed_math.webp"
+         title="BSEd Math Graduation"
+         alt="Christony Guinanghan Duyapat college graduation picture"
+         loading="lazy">
+    <figcaption class="gallery-caption">Bachelor of Secondary Education - Mathematics</figcaption>
+  </figure>
 
-  <div class="col">
-    <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/bsed_math.webp" class="img-fluid p-0 m-0" 
-        title="BSEd Math Graduation" 
-        alt="Christony Guinanghan Duyapat college graduation picture" loading="lazy">
-      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
-        Bachelor of Secondary Education - Mathematics
-      </div>
-    </div>
-  </div>
+  <figure class="gallery-item">
+    <img class="gallery-image"
+         src="/assets/img/gallery/itwe.webp"
+         title="In Touch with Excellence (DOST-CAR)"
+         alt="Christony Guinanghan Duyapat receiving an award during the In Touch with Excellence recognition ceremony by DOST-CAR at the Newtown Plaza Hotel, Baguio City."
+         loading="lazy">
+    <figcaption class="gallery-caption">In Touch with Excellence (DOST-CAR)</figcaption>
+  </figure>
 
-  <div class="col">
-    <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/itwe.webp" class="img-fluid p-0 m-0" 
-        title="In Touch with Excellence (DOST-CAR)" 
-        alt="Christony Guinanghan Duyapat receiving an award during the In Touch with Excellence recognition ceremony by DOST-CAR at the Newtown Plaza Hotel, Baguio City." loading="lazy">
-      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
-        In Touch with Excellence (DOST-CAR)
-      </div>
-    </div>
-  </div>
+  <figure class="gallery-item">
+    <img class="gallery-image"
+         src="/assets/img/gallery/let_passer.webp"
+         title="Passing the LET"
+         alt="Christony Guinanghan Duyapat passing the Licensure Examination for Teachers in September 2023."
+         loading="lazy">
+    <figcaption class="gallery-caption">Passing the September 2023 LET</figcaption>
+  </figure>
 
-  <div class="col">
-    <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/let_passer.webp" class="img-fluid p-0 m-0" 
-        title="Passing the LET" 
-        alt="Christony Guinanghan Duyapat Passing the Licensure Examination for Teachers September 2023" loading="lazy">
-      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
-        Passing the September 2023 LET
-      </div>
-    </div>
-  </div>
+  <figure class="gallery-item">
+    <img class="gallery-image"
+         src="/assets/img/gallery/let_mar2024.webp"
+         title="Lecturer for LET March 2024"
+         alt="Christony Guinanghan Duyapat as review lecturer for the Licensure Examination for Teachers in March 2024."
+         loading="lazy">
+    <figcaption class="gallery-caption">General Mathematics and Math Majorship Lecture</figcaption>
+  </figure>
 
-  <div class="col">
-    <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/let_mar2024.webp" class="img-fluid p-0 m-0" 
-        title="Lecturer for LET March 2024" 
-        alt="Christony Guinanghan Duyapat as Review Lecturer for the Licensure Examination for Teachers March 2024" loading="lazy">
-      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
-        General Mathematics and Math Majorship Lecture
-      </div>
-    </div>
-  </div>
+  <figure class="gallery-item">
+    <img class="gallery-image"
+         src="/assets/img/gallery/oathtaking.webp"
+         title="LPT Oathtaking Ceremony"
+         alt="Newly licensed teacher Christony Guinanghan Duyapat holding take-out from a classmate's thanksgiving party at the Lion's Head, Kennon Road, Baguio City."
+         loading="lazy">
+    <figcaption class="gallery-caption">LPT Oathtaking Ceremony (nakikain kina classmate)</figcaption>
+  </figure>
 
-  <div class="col">
-    <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/oathtaking.webp" class="img-fluid p-0 m-0" 
-        title="LPT Oathtaking Ceremony (nakikain kina classmate😋)" 
-        alt="Newly licensed teacher Christony Guinanghan Duyapat holding take-out from a classmate's thanksgiving party at the Lion’s Head, Kennon Road, Baguio City." loading="lazy">
-      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
-        LPT Oathtaking Ceremony (nakikain kina classmate)
-      </div>
-    </div>
-  </div>
+  <figure class="gallery-item">
+    <img class="gallery-image"
+         src="/assets/img/gallery/let_sep2024.webp"
+         title="Lecturer for LET September 2024"
+         alt="Christony Guinanghan Duyapat as review lecturer for the Licensure Examination for Teachers in September 2024."
+         loading="lazy">
+    <figcaption class="gallery-caption">General Mathematics Lecture</figcaption>
+  </figure>
 
-  <div class="col">
-    <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/let_sep2024.webp" class="img-fluid p-0 m-0" 
-        title="Lecturer for LET September 2024" 
-        alt="Christony Guinanghan Duyapat as Review Lecturer for the Licensure Examination for Teachers September 2024" loading="lazy">
-      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
-        General Mathematics Lecture
-      </div>
-    </div>
-  </div>
+  <figure class="gallery-item">
+    <img class="gallery-image"
+         src="/assets/img/gallery/slc_solo.webp"
+         title="Scholars Leadership Camp 2024"
+         alt="Christony Guinanghan Duyapat attending the 2024 Scholars Leadership Camp by the Department of Science and Technology - Science Education Institute at Hilton Clark Sun Valley Resort, Pampanga."
+         loading="lazy">
+    <figcaption class="gallery-caption">Scholars Leadership Camp 2024 (CBPSME Luzon)</figcaption>
+  </figure>
 
-  <div class="col">
-    <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/slc_solo.webp" class="img-fluid p-0 m-0" 
-        title="Student Leadership Camp 2024" 
-        alt="Christony Guinanghan Duyapat attending the 2024 Student Leadership Camp by the Department of Science and Technology - Science Education Institude at Hilton Clark Sun Valley Resort, Pampanga." loading="lazy">
-      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
-        Scholars Leadership Camp 2024 (CBPSME Luzon)
-      </div>
-    </div>
-  </div>
+  <figure class="gallery-item">
+    <img class="gallery-image"
+         src="/assets/img/gallery/slc_with_director.webp"
+         title="Scholars Leadership Camp 2024"
+         alt="Christony Guinanghan Duyapat posing with DOST-SEI Director Dr. Jayeel S. Cornelio during the 2024 Scholars Leadership Camp at Hilton Clark Sun Valley Resort, Pampanga."
+         loading="lazy">
+    <figcaption class="gallery-caption">SLC 2024 with DOST-SEI Director</figcaption>
+  </figure>
 
-  <div class="col">
-    <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/slc_with_director.webp" class="img-fluid p-0 m-0" 
-        title="Student Leadership Camp 2024_2" 
-        alt="Christony Guinanghan Duyapat posing with DOST-SEI Director Dr. Jayeel S. Cornelio during the 2024 Student Leadership Camp at Hilton Clark Sun Valley Resort, Pampanga." loading="lazy">
-      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
-        SLC 2024 with DOST-SEI Director
-      </div>
-    </div>
-  </div>
+  <figure class="gallery-item">
+    <img class="gallery-image"
+         src="/assets/img/gallery/let_mar2025.webp"
+         title="Lecturer for LET March 2025"
+         alt="Christony Guinanghan Duyapat as review lecturer for the Licensure Examination for Teachers in March 2025."
+         loading="lazy">
+    <figcaption class="gallery-caption">General Mathematics Lecture</figcaption>
+  </figure>
 
-  <div class="col">
-    <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/let_mar2025.webp" class="img-fluid p-0 m-0" 
-        title="Lecturer for LET March 2025" 
-        alt="Christony Guinanghan Duyapat as Review Lecturer for the Licensure Examination for Teachers March 2025" loading="lazy">
-      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
-        General Mathematics Lecture
-      </div>
-    </div>
-  </div>
+  <figure class="gallery-item">
+    <img class="gallery-image"
+         src="/assets/img/gallery/master_graduation.webp"
+         title="Master's Degree Graduation"
+         alt="Christony Guinanghan Duyapat in academic regalia during the 99th Commencement Exercises at Saint Mary's University, graduating Magna Cum Laude and as Class Valedictorian for his Master of Science in Teaching Mathematics."
+         loading="lazy">
+    <figcaption class="gallery-caption">Master's Graduation at Saint Mary's University</figcaption>
+  </figure>
 
-  <div class="col">
-    <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/master_graduation.webp" class="img-fluid p-0 m-0" 
-        title="Master's Degree Graduation" 
-        alt="Christony Guinanghan Duyapat in academic regalia during the 99th Commencement Exercises at Saint Mary's University, graduating Magna Cum Laude and as Class Valedictorian for his Master of Science in Teaching Mathematics." loading="lazy">
-      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
-        Master's Graduation at Saint Mary's University
-      </div>
-    </div>
-  </div>
+  <figure class="gallery-item">
+    <img class="gallery-image"
+         src="/assets/img/gallery/mst_math.webp"
+         title="MST-Math Graduation"
+         alt="Christony Duyapat master's graduation picture."
+         loading="lazy">
+    <figcaption class="gallery-caption">Master of Science in Teaching Mathematics</figcaption>
+  </figure>
 
-  <div class="col">
-    <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/mst_math.webp" class="img-fluid p-0 m-0" 
-        title="MST-Math Graduation" 
-        alt="Christony Duyapat master's graduation" loading="lazy">
-      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
-        Master of Science in Teaching Mathematics
-      </div>
-    </div>
-  </div>
+  <figure class="gallery-item">
+    <img class="gallery-image"
+         src="/assets/img/gallery/tabayoc.webp"
+         title="Mt. Tabayoc"
+         alt="Christony Duyapat hiking at Mt. Tabayoc, which is 2,842 meters above sea level."
+         loading="lazy">
+    <figcaption class="gallery-caption">Conquering Mt. Tabayoc</figcaption>
+  </figure>
 
-  <div class="col">
-    <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/tabayoc.webp" class="img-fluid p-0 m-0" 
-        title="Mt. Tabayoc" 
-        alt="Christony Duyapat hiking at Mt. Tabayoc which is 2,842 meters above sea level" loading="lazy">
-      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
-        Conquering Mt. Tabayoc
-      </div>
-    </div>
-  </div>
+  <figure class="gallery-item">
+    <img class="gallery-image"
+         src="/assets/img/gallery/peatland.webp"
+         title="Gaday Peatland"
+         alt="Christony Duyapat hiking at Gaday Peatland in Tinoc, Ifugao."
+         loading="lazy">
+    <figcaption class="gallery-caption">Nature Trip at Gaday Peatland</figcaption>
+  </figure>
 
-  <div class="col">
-    <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/peatland.webp" class="img-fluid p-0 m-0" 
-        title="Gaday Peatland" 
-        alt="Christony Duyapat hiking at Gaday Peatland in Tinoc, Ifugao" loading="lazy">
-      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
-        Nature Trip at Gaday Peatland
-      </div>
-    </div>
-  </div>
+  <figure class="gallery-item">
+    <img class="gallery-image"
+         src="/assets/img/gallery/nrcsme_1.webp"
+         title="12th National Research Conference in Science and Mathematics Education"
+         alt="Christony Duyapat presenting research during the 12th National Research Conference in Science and Mathematics Education at Grand Xing Imperial Hotel, Iloilo City."
+         loading="lazy">
+    <figcaption class="gallery-caption">Presenter during the 12th NRCSME</figcaption>
+  </figure>
 
-  <div class="col">
-    <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/nrcsme_1.webp" class="img-fluid p-0 m-0" 
-        title="12th National Research Conference in Science and Mathematics Education (NRCSME)" 
-        alt="Christony Duyapat presenting his research during the 12th National Research Conference in Science and Mathematics Education (NRCSME) held at Grand Xing Imperial Hotel, Iloilo City" loading="lazy">
-      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
-        Presenter during the 12th NRCSME
-      </div>
-    </div>
-  </div>
+  <figure class="gallery-item">
+    <img class="gallery-image"
+         src="/assets/img/gallery/nrcsme_2.webp"
+         title="12th National Research Conference in Science and Mathematics Education"
+         alt="Christony Duyapat presenting research during the 12th National Research Conference in Science and Mathematics Education at Grand Xing Imperial Hotel, Iloilo City."
+         loading="lazy">
+    <figcaption class="gallery-caption">Research Presenter</figcaption>
+  </figure>
 
-  <div class="col">
-    <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/nrcsme_2.webp" class="img-fluid p-0 m-0" 
-        title="12th National Research Conference in Science and Mathematics Education (NRCSME)" 
-        alt="Christony Duyapat presenting his research during the 12th National Research Conference in Science and Mathematics Education (NRCSME) held at Grand Xing Imperial Hotel, Iloilo City" loading="lazy">
-      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
-        Research Presenter
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-    <div class="card h-100" style="border-radius: 0;">
-      <img src="/assets/img/gallery/nrcsme_3.webp" class="img-fluid p-0 m-0" 
-        title="12th National Research Conference in Science and Mathematics Education (NRCSME)" 
-        alt="Christony Duyapat listening to the plenary speakers during the 12th National Research Conference in Science and Mathematics Education (NRCSME) held at Grand Xing Imperial Hotel, Iloilo City" loading="lazy">
-      <div class="card-body text-center text-muted py-1" style="font-size: 0.8rem; line-height: 1.12;">
-        Listening to the Plenary Speakers
-      </div>
-    </div>
-  </div>
-
-  </div>
+  <figure class="gallery-item">
+    <img class="gallery-image"
+         src="/assets/img/gallery/nrcsme_3.webp"
+         title="12th National Research Conference in Science and Mathematics Education"
+         alt="Christony Duyapat listening to the plenary speakers during the 12th National Research Conference in Science and Mathematics Education at Grand Xing Imperial Hotel, Iloilo City."
+         loading="lazy">
+    <figcaption class="gallery-caption">Listening to the Plenary Speakers</figcaption>
+  </figure>
 </div>
-
-<style>
-/* Default spacing for normal article images */
-.post-content img {
-  margin-top: 0.5rem;
-}
-
-/* Gallery images must touch the card border */
-.post-content .gallery-grid .card > img {
-  display: block;
-  width: 100%;
-  height: auto;
-  margin: 0 !important;
-  padding: 0 !important;
-  border-radius: 0;
-}
-</style>
