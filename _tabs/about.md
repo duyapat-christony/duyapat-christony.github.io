@@ -275,13 +275,67 @@ order: 6
 }
 
 
-/* Final production override for Chirpy/GitHub Pages. */
-html body #main-wrapper #about-gallery figure.gallery-item > img.gallery-image {
-  margin-top: 0 !important;
-  margin-right: 0 !important;
-  margin-bottom: 0 !important;
-  margin-left: 0 !important;
+
+
+/* GitHub Pages / Chirpy production fix.
+   Chirpy wraps every image in: <a class="popup img-link shimmer">. */
+html body #main-wrapper #about-gallery figure.gallery-item > a.popup.img-link.shimmer,
+html body #main-wrapper #about-gallery figure.gallery-item > a.popup.img-link,
+html body #main-wrapper #about-gallery figure.gallery-item > a.img-link,
+#about-gallery figure.gallery-item > a.popup.img-link.shimmer,
+#about-gallery figure.gallery-item > a.popup.img-link,
+#about-gallery figure.gallery-item > a.img-link {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  outline: 0 !important;
+  line-height: 0 !important;
+  font-size: 0 !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+  overflow: hidden !important;
 }
+
+/* Disable spacing or generated shimmer layers on the image link. */
+html body #main-wrapper #about-gallery figure.gallery-item > a.popup.img-link.shimmer::before,
+html body #main-wrapper #about-gallery figure.gallery-item > a.popup.img-link.shimmer::after,
+#about-gallery figure.gallery-item > a.popup.img-link.shimmer::before,
+#about-gallery figure.gallery-item > a.popup.img-link.shimmer::after {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+/* Reset the image after Chirpy places it inside the popup link. */
+html body #main-wrapper #about-gallery figure.gallery-item > a.popup.img-link > img.gallery-image,
+#about-gallery figure.gallery-item > a.popup.img-link > img.gallery-image,
+#about-gallery figure.gallery-item > a.img-link > img.gallery-image {
+  display: block !important;
+  width: 100% !important;
+  min-width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  vertical-align: top !important;
+}
+
+/* Caption border only; keep the caption flush against the image link. */
+html body #main-wrapper #about-gallery figure.gallery-item > figcaption.gallery-caption,
+#about-gallery figure.gallery-item > figcaption.gallery-caption {
+  margin: 0 !important;
+  margin-top: -1px !important;
+  border: 1px solid var(--main-border-color, #d7d7d7) !important;
+  border-top: 0 !important;
+}
+
 </style>
 
 > **GALLERY**
@@ -293,8 +347,7 @@ html body #main-wrapper #about-gallery figure.gallery-item > img.gallery-image {
          style="display:block !important; width:100% !important; max-width:100% !important; height:auto !important; margin:0 !important; padding:0 !important; border:0 !important; border-radius:0 !important; box-shadow:none !important; vertical-align:top !important;"
          src="/assets/img/gallery/college_graduation.webp"
          title="College Graduation"
-         alt="Christony Guinanghan Duyapat and his mother during the Benguet State University commencement exercises, where he graduated Magna Cum Laude with a Bachelor of Secondary Education Major in Mathematics."
-         loading="lazy">
+         alt="Christony Guinanghan Duyapat and his mother during the Benguet State University commencement exercises, where he graduated Magna Cum Laude with a Bachelor of Secondary Education Major in Mathematics.">
     <figcaption class="gallery-caption">College Graduation at Benguet State University</figcaption>
   </figure>
 
@@ -303,8 +356,7 @@ html body #main-wrapper #about-gallery figure.gallery-item > img.gallery-image {
          style="display:block !important; width:100% !important; max-width:100% !important; height:auto !important; margin:0 !important; padding:0 !important; border:0 !important; border-radius:0 !important; box-shadow:none !important; vertical-align:top !important;"
          src="/assets/img/gallery/bsed_math.webp"
          title="BSEd Math Graduation"
-         alt="Christony Guinanghan Duyapat college graduation picture"
-         loading="lazy">
+         alt="Christony Guinanghan Duyapat college graduation picture">
     <figcaption class="gallery-caption">Bachelor of Secondary Education - Mathematics</figcaption>
   </figure>
 
@@ -313,8 +365,7 @@ html body #main-wrapper #about-gallery figure.gallery-item > img.gallery-image {
          style="display:block !important; width:100% !important; max-width:100% !important; height:auto !important; margin:0 !important; padding:0 !important; border:0 !important; border-radius:0 !important; box-shadow:none !important; vertical-align:top !important;"
          src="/assets/img/gallery/itwe.webp"
          title="In Touch with Excellence (DOST-CAR)"
-         alt="Christony Guinanghan Duyapat receiving an award during the In Touch with Excellence recognition ceremony by DOST-CAR at the Newtown Plaza Hotel, Baguio City."
-         loading="lazy">
+         alt="Christony Guinanghan Duyapat receiving an award during the In Touch with Excellence recognition ceremony by DOST-CAR at the Newtown Plaza Hotel, Baguio City.">
     <figcaption class="gallery-caption">In Touch with Excellence (DOST-CAR)</figcaption>
   </figure>
 
@@ -323,8 +374,7 @@ html body #main-wrapper #about-gallery figure.gallery-item > img.gallery-image {
          style="display:block !important; width:100% !important; max-width:100% !important; height:auto !important; margin:0 !important; padding:0 !important; border:0 !important; border-radius:0 !important; box-shadow:none !important; vertical-align:top !important;"
          src="/assets/img/gallery/let_passer.webp"
          title="Passing the LET"
-         alt="Christony Guinanghan Duyapat passing the Licensure Examination for Teachers in September 2023."
-         loading="lazy">
+         alt="Christony Guinanghan Duyapat passing the Licensure Examination for Teachers in September 2023.">
     <figcaption class="gallery-caption">Passing the September 2023 LET</figcaption>
   </figure>
 
@@ -333,8 +383,7 @@ html body #main-wrapper #about-gallery figure.gallery-item > img.gallery-image {
          style="display:block !important; width:100% !important; max-width:100% !important; height:auto !important; margin:0 !important; padding:0 !important; border:0 !important; border-radius:0 !important; box-shadow:none !important; vertical-align:top !important;"
          src="/assets/img/gallery/let_mar2024.webp"
          title="Lecturer for LET March 2024"
-         alt="Christony Guinanghan Duyapat as review lecturer for the Licensure Examination for Teachers in March 2024."
-         loading="lazy">
+         alt="Christony Guinanghan Duyapat as review lecturer for the Licensure Examination for Teachers in March 2024.">
     <figcaption class="gallery-caption">General Mathematics and Math Majorship Lecture</figcaption>
   </figure>
 
@@ -343,8 +392,7 @@ html body #main-wrapper #about-gallery figure.gallery-item > img.gallery-image {
          style="display:block !important; width:100% !important; max-width:100% !important; height:auto !important; margin:0 !important; padding:0 !important; border:0 !important; border-radius:0 !important; box-shadow:none !important; vertical-align:top !important;"
          src="/assets/img/gallery/oathtaking.webp"
          title="LPT Oathtaking Ceremony"
-         alt="Newly licensed teacher Christony Guinanghan Duyapat holding take-out from a classmate's thanksgiving party at the Lion's Head, Kennon Road, Baguio City."
-         loading="lazy">
+         alt="Newly licensed teacher Christony Guinanghan Duyapat holding take-out from a classmate's thanksgiving party at the Lion's Head, Kennon Road, Baguio City.">
     <figcaption class="gallery-caption">LPT Oathtaking Ceremony (nakikain kina classmate)</figcaption>
   </figure>
 
@@ -353,8 +401,7 @@ html body #main-wrapper #about-gallery figure.gallery-item > img.gallery-image {
          style="display:block !important; width:100% !important; max-width:100% !important; height:auto !important; margin:0 !important; padding:0 !important; border:0 !important; border-radius:0 !important; box-shadow:none !important; vertical-align:top !important;"
          src="/assets/img/gallery/let_sep2024.webp"
          title="Lecturer for LET September 2024"
-         alt="Christony Guinanghan Duyapat as review lecturer for the Licensure Examination for Teachers in September 2024."
-         loading="lazy">
+         alt="Christony Guinanghan Duyapat as review lecturer for the Licensure Examination for Teachers in September 2024.">
     <figcaption class="gallery-caption">General Mathematics Lecture</figcaption>
   </figure>
 
@@ -363,8 +410,7 @@ html body #main-wrapper #about-gallery figure.gallery-item > img.gallery-image {
          style="display:block !important; width:100% !important; max-width:100% !important; height:auto !important; margin:0 !important; padding:0 !important; border:0 !important; border-radius:0 !important; box-shadow:none !important; vertical-align:top !important;"
          src="/assets/img/gallery/slc_solo.webp"
          title="Scholars Leadership Camp 2024"
-         alt="Christony Guinanghan Duyapat attending the 2024 Scholars Leadership Camp by the Department of Science and Technology - Science Education Institute at Hilton Clark Sun Valley Resort, Pampanga."
-         loading="lazy">
+         alt="Christony Guinanghan Duyapat attending the 2024 Scholars Leadership Camp by the Department of Science and Technology - Science Education Institute at Hilton Clark Sun Valley Resort, Pampanga.">
     <figcaption class="gallery-caption">Scholars Leadership Camp 2024 (CBPSME Luzon)</figcaption>
   </figure>
 
@@ -373,8 +419,7 @@ html body #main-wrapper #about-gallery figure.gallery-item > img.gallery-image {
          style="display:block !important; width:100% !important; max-width:100% !important; height:auto !important; margin:0 !important; padding:0 !important; border:0 !important; border-radius:0 !important; box-shadow:none !important; vertical-align:top !important;"
          src="/assets/img/gallery/slc_with_director.webp"
          title="Scholars Leadership Camp 2024"
-         alt="Christony Guinanghan Duyapat posing with DOST-SEI Director Dr. Jayeel S. Cornelio during the 2024 Scholars Leadership Camp at Hilton Clark Sun Valley Resort, Pampanga."
-         loading="lazy">
+         alt="Christony Guinanghan Duyapat posing with DOST-SEI Director Dr. Jayeel S. Cornelio during the 2024 Scholars Leadership Camp at Hilton Clark Sun Valley Resort, Pampanga.">
     <figcaption class="gallery-caption">SLC 2024 with DOST-SEI Director</figcaption>
   </figure>
 
@@ -383,8 +428,7 @@ html body #main-wrapper #about-gallery figure.gallery-item > img.gallery-image {
          style="display:block !important; width:100% !important; max-width:100% !important; height:auto !important; margin:0 !important; padding:0 !important; border:0 !important; border-radius:0 !important; box-shadow:none !important; vertical-align:top !important;"
          src="/assets/img/gallery/let_mar2025.webp"
          title="Lecturer for LET March 2025"
-         alt="Christony Guinanghan Duyapat as review lecturer for the Licensure Examination for Teachers in March 2025."
-         loading="lazy">
+         alt="Christony Guinanghan Duyapat as review lecturer for the Licensure Examination for Teachers in March 2025.">
     <figcaption class="gallery-caption">General Mathematics Lecture</figcaption>
   </figure>
 
@@ -393,8 +437,7 @@ html body #main-wrapper #about-gallery figure.gallery-item > img.gallery-image {
          style="display:block !important; width:100% !important; max-width:100% !important; height:auto !important; margin:0 !important; padding:0 !important; border:0 !important; border-radius:0 !important; box-shadow:none !important; vertical-align:top !important;"
          src="/assets/img/gallery/master_graduation.webp"
          title="Master's Degree Graduation"
-         alt="Christony Guinanghan Duyapat in academic regalia during the 99th Commencement Exercises at Saint Mary's University, graduating Magna Cum Laude and as Class Valedictorian for his Master of Science in Teaching Mathematics."
-         loading="lazy">
+         alt="Christony Guinanghan Duyapat in academic regalia during the 99th Commencement Exercises at Saint Mary's University, graduating Magna Cum Laude and as Class Valedictorian for his Master of Science in Teaching Mathematics.">
     <figcaption class="gallery-caption">Master's Graduation at Saint Mary's University</figcaption>
   </figure>
 
@@ -403,8 +446,7 @@ html body #main-wrapper #about-gallery figure.gallery-item > img.gallery-image {
          style="display:block !important; width:100% !important; max-width:100% !important; height:auto !important; margin:0 !important; padding:0 !important; border:0 !important; border-radius:0 !important; box-shadow:none !important; vertical-align:top !important;"
          src="/assets/img/gallery/mst_math.webp"
          title="MST-Math Graduation"
-         alt="Christony Duyapat master's graduation picture."
-         loading="lazy">
+         alt="Christony Duyapat master's graduation picture.">
     <figcaption class="gallery-caption">Master of Science in Teaching Mathematics</figcaption>
   </figure>
 
@@ -413,8 +455,7 @@ html body #main-wrapper #about-gallery figure.gallery-item > img.gallery-image {
          style="display:block !important; width:100% !important; max-width:100% !important; height:auto !important; margin:0 !important; padding:0 !important; border:0 !important; border-radius:0 !important; box-shadow:none !important; vertical-align:top !important;"
          src="/assets/img/gallery/tabayoc.webp"
          title="Mt. Tabayoc"
-         alt="Christony Duyapat hiking at Mt. Tabayoc, which is 2,842 meters above sea level."
-         loading="lazy">
+         alt="Christony Duyapat hiking at Mt. Tabayoc, which is 2,842 meters above sea level.">
     <figcaption class="gallery-caption">Conquering Mt. Tabayoc</figcaption>
   </figure>
 
@@ -423,8 +464,7 @@ html body #main-wrapper #about-gallery figure.gallery-item > img.gallery-image {
          style="display:block !important; width:100% !important; max-width:100% !important; height:auto !important; margin:0 !important; padding:0 !important; border:0 !important; border-radius:0 !important; box-shadow:none !important; vertical-align:top !important;"
          src="/assets/img/gallery/peatland.webp"
          title="Gaday Peatland"
-         alt="Christony Duyapat hiking at Gaday Peatland in Tinoc, Ifugao."
-         loading="lazy">
+         alt="Christony Duyapat hiking at Gaday Peatland in Tinoc, Ifugao.">
     <figcaption class="gallery-caption">Nature Trip at Gaday Peatland</figcaption>
   </figure>
 
@@ -433,8 +473,7 @@ html body #main-wrapper #about-gallery figure.gallery-item > img.gallery-image {
          style="display:block !important; width:100% !important; max-width:100% !important; height:auto !important; margin:0 !important; padding:0 !important; border:0 !important; border-radius:0 !important; box-shadow:none !important; vertical-align:top !important;"
          src="/assets/img/gallery/nrcsme_1.webp"
          title="12th National Research Conference in Science and Mathematics Education"
-         alt="Christony Duyapat presenting research during the 12th National Research Conference in Science and Mathematics Education at Grand Xing Imperial Hotel, Iloilo City."
-         loading="lazy">
+         alt="Christony Duyapat presenting research during the 12th National Research Conference in Science and Mathematics Education at Grand Xing Imperial Hotel, Iloilo City.">
     <figcaption class="gallery-caption">Presenter during the 12th NRCSME</figcaption>
   </figure>
 
@@ -443,8 +482,7 @@ html body #main-wrapper #about-gallery figure.gallery-item > img.gallery-image {
          style="display:block !important; width:100% !important; max-width:100% !important; height:auto !important; margin:0 !important; padding:0 !important; border:0 !important; border-radius:0 !important; box-shadow:none !important; vertical-align:top !important;"
          src="/assets/img/gallery/nrcsme_2.webp"
          title="12th National Research Conference in Science and Mathematics Education"
-         alt="Christony Duyapat presenting research during the 12th National Research Conference in Science and Mathematics Education at Grand Xing Imperial Hotel, Iloilo City."
-         loading="lazy">
+         alt="Christony Duyapat presenting research during the 12th National Research Conference in Science and Mathematics Education at Grand Xing Imperial Hotel, Iloilo City.">
     <figcaption class="gallery-caption">Research Presenter</figcaption>
   </figure>
 
@@ -453,8 +491,7 @@ html body #main-wrapper #about-gallery figure.gallery-item > img.gallery-image {
          style="display:block !important; width:100% !important; max-width:100% !important; height:auto !important; margin:0 !important; padding:0 !important; border:0 !important; border-radius:0 !important; box-shadow:none !important; vertical-align:top !important;"
          src="/assets/img/gallery/nrcsme_3.webp"
          title="12th National Research Conference in Science and Mathematics Education"
-         alt="Christony Duyapat listening to the plenary speakers during the 12th National Research Conference in Science and Mathematics Education at Grand Xing Imperial Hotel, Iloilo City."
-         loading="lazy">
+         alt="Christony Duyapat listening to the plenary speakers during the 12th National Research Conference in Science and Mathematics Education at Grand Xing Imperial Hotel, Iloilo City.">
     <figcaption class="gallery-caption">Listening to the Plenary Speakers</figcaption>
   </figure>
 </div>
